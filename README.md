@@ -1,0 +1,1 @@
+# eldenring_items_and_map
