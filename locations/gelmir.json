@@ -1,0 +1,442 @@
+[
+  {
+    "name": "Mt. Gelmir",
+    "access_rules": [
+      "$altus"
+    ],
+    "children": [
+      {
+        "name": "Field in front of Volcano Manor",
+        "access_rules": [
+          "$volcano_entrance, flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "gelmir_map",
+            "x": 202,
+            "y": 246
+          }
+        ],
+        "sections": [
+          {
+            "name": "Phantom Tree",
+            "chest_unopened_img": "images/icons/icon_flask.png",
+            "chest_opened_img": "images/icons/icon_flask_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Seethewater River",
+        "access_rules": [
+          "flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "gelmir_map",
+            "x": 520,
+            "y": 468
+          }
+        ],
+        "sections": [
+          {
+            "name": "Phantom Tree",
+            "chest_unopened_img": "images/icons/icon_flask.png",
+            "chest_opened_img": "images/icons/icon_flask_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Mt. Gelmir climb",
+        "access_rules": [
+          "merchants_true"
+        ],
+        "map_locations": [
+          {
+            "map": "gelmir_map",
+            "x": 511,
+            "y": 225
+          }
+        ],
+        "sections": [
+          {
+            "name": "Nomadic Merchant",
+            "chest_unopened_img": "images/icons/icon_shop.png",
+            "chest_opened_img": "images/icons/icon_shop_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hermit Village",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "gelmir_map",
+            "x": 512,
+            "y": 542
+          }
+        ],
+        "sections": [
+          {
+            "name": "Demi-Human Queen Maggie",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ninth Mt. Gelmir Campsite",
+        "access_rules": [
+          "minor_bosses_true",
+          "require_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "gelmir_map",
+            "x": 373,
+            "y": 298
+          }
+        ],
+        "sections": [
+          {
+            "name": "Full-Grown Fallingstar Beast",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Fort Laiedd lava pool",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "gelmir_map",
+            "x": 113,
+            "y": 532
+          }
+        ],
+        "sections": [
+          {
+            "name": "Magma Wyrm",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Mt. Gelmir Minor Erdtree",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "gelmir_map",
+            "x": 486,
+            "y": 297
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ulcerated Tree Spirit",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Gelmir Hero's Grave",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "gelmir_map",
+            "x": 578,
+            "y": 453
+          }
+        ],
+        "sections": [
+          {
+            "name": "Red Wolf of the Champion",
+            "chest_unopened_img": "images/icons/icon_herograve.png",
+            "chest_opened_img": "images/icons/icon_herograve_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Seethewater Cave (1 key)",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "gelmir_map",
+            "x": 490,
+            "y": 356
+          }
+        ],
+        "sections": [
+          {
+            "name": "Kindred of Rot",
+            "chest_unopened_img": "images/icons/icon_cave.png",
+            "chest_opened_img": "images/icons/icon_cave_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Volcano Cave",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "gelmir_map",
+            "x": 445,
+            "y": 117
+          }
+        ],
+        "sections": [
+          {
+            "name": "Demi-Human Queen Margot",
+            "chest_unopened_img": "images/icons/icon_cave.png",
+            "chest_opened_img": "images/icons/icon_cave_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Wyndham Catacombs",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true, talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "gelmir_map",
+            "x": 597,
+            "y": 569
+          }
+        ],
+        "sections": [
+          {
+            "name": "Behind Imp Barrier (1 key)",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          },
+          {
+            "name": "Erdtree Burial Watchdog",
+            "chest_unopened_img": "images/icons/icon_catacombs.png",
+            "chest_opened_img": "images/icons/icon_catacombs_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Wyndham Catacombs",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true, talismans_false"
+        ],
+        "map_locations": [
+          {
+            "map": "gelmir_map",
+            "x": 597,
+            "y": 569
+          }
+        ],
+        "sections": [
+          {
+            "name": "Erdtree Burial Watchdog",
+            "chest_unopened_img": "images/icons/icon_catacombs.png",
+            "chest_opened_img": "images/icons/icon_catacombs_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Wyndham Catacombs",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_false, talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "gelmir_map",
+            "x": 597,
+            "y": 569
+          }
+        ],
+        "sections": [
+          {
+            "name": "Behind Imp Barrier (1 key)",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Fort Laiedd",
+        "access_rules": [
+          "talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "gelmir_map",
+            "x": 91,
+            "y": 377
+          }
+        ],
+        "sections": [
+          {
+            "name": "Top of the fort, next to spirit",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+    ]
+  },
+  {
+    "name": "Volcano Manor",
+    "children": [
+      {
+        "name": "Volcano Manor",
+        "access_rules": [
+          "$volcano_entrance"
+        ],
+        "map_locations": [
+          {
+            "map": "gelmir_map",
+            "x": 340,
+            "y": 428
+          }
+        ],
+        "sections": [
+          {
+            "name": "Join the forces of Satan",
+            "chest_unopened_img": "images/icons/icon_keyitem.png",
+            "chest_opened_img": "images/icons/icon_keyitem_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Temple of Eiglay",
+        "access_rules": [
+          "$volcano_middle"
+        ],
+        "map_locations": [
+          {
+            "map": "gelmir_map",
+            "x": 350,
+            "y": 541
+          }
+        ],
+        "sections": [
+          {
+            "name": "Godskin Noble",
+            "chest_unopened_img": "images/icons/bosses/icon_noble.png",
+            "chest_opened_img": "images/icons/bosses/icon_noble_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Volcano Manor Audience Chamber",
+        "access_rules": [
+          "$volcano_rykard"
+        ],
+        "map_locations": [
+          {
+            "map": "gelmir_map",
+            "x": 380,
+            "y": 470
+          }
+        ],
+        "sections": [
+          {
+            "name": "Rykard, Lord of Blasphemy",
+            "chest_unopened_img": "images/icons/bosses/icon_rykard.png",
+            "chest_opened_img": "images/icons/bosses/icon_rykard_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Subterranean Inquisition Chamber",
+        "access_rules": [
+          "$volcano_middle, minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "gelmir_map",
+            "x": 434,
+            "y": 496
+          }
+        ],
+        "sections": [
+          {
+            "name": "Abductor Virgin Duo",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Prison Town",
+        "access_rules": [
+          "$volcano_middle, talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "gelmir_map",
+            "x": 164,
+            "y": 495
+          }
+        ],
+        "sections": [
+          {
+            "name": "Corpse behind Imp Barrier (1 key)",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Volcano Manor hanging cages (2 keys)",
+        "access_rules": [
+          "$volcano_rykard, talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "gelmir_map",
+            "x": 308,
+            "y": 428
+          }
+        ],
+        "sections": [
+          {
+            "name": "Corpse on first ledge",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+    ]
+  }
+]

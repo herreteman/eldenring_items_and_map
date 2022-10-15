@@ -1,0 +1,412 @@
+[
+  {
+    "name": "Leyndell, Royal Capital",
+    "access_rules": [
+      "$leyndell"
+    ],
+    "children": [
+      {
+        "name": "Melina after Morgott",
+        "access_rules": [
+          "$melina_leyndell"
+        ],
+        "map_locations": [
+          {
+            "map": "leyndell_map",
+            "x": 502,
+            "y": 442
+          }
+        ],
+        "sections": [
+          {
+            "name": "Maiden item",
+            "chest_unopened_img": "images/icons/icon_keyitem.png",
+            "chest_opened_img": "images/icons/icon_keyitem_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Erdtree Sanctuary",
+        "map_locations": [
+          {
+            "map": "leyndell_map",
+            "x": 349,
+            "y": 421
+          }
+        ],
+        "sections": [
+          {
+            "name": "Godfrey, First Elden Lord",
+            "chest_unopened_img": "images/icons/bosses/icon_godfrey.png",
+            "chest_opened_img": "images/icons/bosses/icon_godfrey_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Elden Throne",
+        "access_rules": [
+          "$throne"
+        ],
+        "map_locations": [
+          {
+            "map": "leyndell_map",
+            "x": 478,
+            "y": 442
+          }
+        ],
+        "sections": [
+          {
+            "name": "Morgott, the Omen King",
+            "chest_unopened_img": "images/icons/bosses/icon_morgott.png",
+            "chest_opened_img": "images/icons/bosses/icon_morgott_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "West Capital Rampart",
+        "access_rules": [
+          "flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "leyndell_map",
+            "x": 295,
+            "y": 373
+          },
+          {
+            "map": "leyndell_ash_map",
+            "x": 295,
+            "y": 373
+          }
+        ],
+        "sections": [
+          {
+            "name": "Phantom Tree",
+            "chest_unopened_img": "images/icons/icon_flask.png",
+            "chest_opened_img": "images/icons/icon_flask_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Leyndell Coliseum",
+        "access_rules": [
+          "talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "leyndell_map",
+            "x": 185,
+            "y": 429
+          },
+          {
+            "map": "leyndell_ash_map",
+            "x": 185,
+            "y": 429
+          }
+        ],
+        "sections": [
+          {
+            "name": "Corpse on the stairs",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Leyndell Divine Bridge",
+        "access_rules": [
+          "talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "leyndell_map",
+            "x": 78,
+            "y": 359
+          },
+          {
+            "map": "leyndell_ash_map",
+            "x": 78,
+            "y": 359
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest next to golem",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Subterranean Shunning-Grounds",
+        "access_rules": [
+          "talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "leyndell_map",
+            "x": 313,
+            "y": 264
+          },
+          {
+            "map": "leyndell_ash_map",
+            "x": 313,
+            "y": 264
+          }
+        ],
+        "sections": [
+          {
+            "name": "Mohg, the Omen",
+            "chest_unopened_img": "images/icons/bosses/icon_minimohg.png",
+            "chest_opened_img": "images/icons/bosses/icon_minimohg_checked.png",
+            "item_count": 1
+          },
+          {
+            "name": "Chest after Mohg",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Subterranean Shunning-Grounds",
+        "access_rules": [
+          "talismans_false"
+        ],
+        "map_locations": [
+          {
+            "map": "leyndell_map",
+            "x": 313,
+            "y": 264
+          },
+          {
+            "map": "leyndell_ash_map",
+            "x": 313,
+            "y": 264
+          }
+        ],
+        "sections": [
+          {
+            "name": "Mohg, the Omen",
+            "chest_unopened_img": "images/icons/bosses/icon_minimohg.png",
+            "chest_opened_img": "images/icons/bosses/icon_minimohg_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Leyndell Catacombs",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true, talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "leyndell_map",
+            "x": 313,
+            "y": 288
+          },
+          {
+            "map": "leyndell_ash_map",
+            "x": 313,
+            "y": 288
+          }
+        ],
+        "sections": [
+          {
+            "name": "Behind two illusory walls",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          },
+          {
+            "name": "Guarded by an Omen",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          },
+          {
+            "name": "Esgar, Priest of Blood",
+            "chest_unopened_img": "images/icons/icon_catacombs.png",
+            "chest_opened_img": "images/icons/icon_catacombs_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Leyndell Catacombs",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true, talismans_false"
+        ],
+        "map_locations": [
+          {
+            "map": "leyndell_map",
+            "x": 313,
+            "y": 288
+          },
+          {
+            "map": "leyndell_ash_map",
+            "x": 313,
+            "y": 288
+          }
+        ],
+        "sections": [
+          {
+            "name": "Esgar, Priest of Blood",
+            "chest_unopened_img": "images/icons/icon_catacombs.png",
+            "chest_opened_img": "images/icons/icon_catacombs_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Leyndell Catacombs",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_false, talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "leyndell_map",
+            "x": 313,
+            "y": 288
+          },
+          {
+            "map": "leyndell_ash_map",
+            "x": 313,
+            "y": 288
+          }
+        ],
+        "sections": [
+          {
+            "name": "Behind two illusory walls",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          },
+          {
+            "name": "Guarded by an Omen",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+    ]
+  },
+  {
+    "name": "Leyndell, Capital of Ash",
+    "access_rules": [
+      "$ashen_leyndell"
+    ],
+    "children": [
+      {
+        "name": "Elden Throne (Ashen)",
+        "access_rules": [
+          "$hoarah_loux"
+        ],
+        "map_locations": [
+          {
+            "map": "leyndell_ash_map",
+            "x": 478,
+            "y": 442
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hoarah Loux, Warrior",
+            "chest_unopened_img": "images/icons/bosses/icon_hoarah.png",
+            "chest_opened_img": "images/icons/bosses/icon_hoarah_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Erdtree Sanctuary (Ashen)",
+        "map_locations": [
+          {
+            "map": "leyndell_ash_map",
+            "x": 349,
+            "y": 421
+          }
+        ],
+        "sections": [
+          {
+            "name": "Gideon Ofnir, the All-Knowing",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ash field from Forbidden Land",
+        "access_rules": [
+          "talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "leyndell_ash_map",
+            "x": 458,
+            "y": 305
+          }
+        ],
+        "sections": [
+          {
+            "name": "Corpse guarded on tree",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ashen Capital sewer hole",
+        "access_rules": [
+          "talismans_false"
+        ],
+        "map_locations": [
+          {
+            "map": "leyndell_ash_map",
+            "x": 329,
+            "y": 279
+          }
+        ],
+        "sections": [
+          {
+            "name": "Corpse on wooden beams",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Inside the Erdtree",
+        "access_rules": [
+          "$erdtree"
+        ],
+        "map_locations": [
+          {
+            "map": "leyndell_ash_map",
+            "x": 523,
+            "y": 509
+          }
+        ],
+        "sections": [
+          {
+            "name": "Elden Beast",
+            "chest_unopened_img": "images/icons/bosses/icon_eldenbeast.png",
+            "chest_opened_img": "images/icons/bosses/icon_eldenbeast_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+    ]
+  }
+]

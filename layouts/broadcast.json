@@ -1,0 +1,82 @@
+{
+    "tracker_broadcast": {
+        "type": "container",
+        "height": 600,
+        "width": 600,
+        "background": "#000066",
+        "content": {
+            "type": "array",
+            "dropshadow": false,
+            "margin": "10",
+            "content": [
+                {
+                    "type":"array",
+                    "orientation": "vertical",
+                    "content": [
+                        {
+                            "type":"array",
+                            "orientation": "vertical",
+                            "content": [
+                                {
+                                    "type": "itemgrid",
+                                    "h_alignment": "center",
+                                    "item_size": "96",
+                                    "item_margin": "1,2",
+                                    "rows": [
+                                        [ "godrick", "malenia", "mohg", "morgott" ],
+                                        [ "radahn", "rykard", "unborn" ]                   
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type":"array",
+                            "orientation": "vertical",
+                            "content": [
+                                {
+                                    "type": "itemgrid",
+                                    "h_alignment": "center",
+                                    "item_size": "96",
+                                    "item_margin": "1,2",
+                                    "rows": [
+                                        [ "key_rusty", "key_glintstone", "key_discarded", "key_drawingroom" ]                  
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type":"array",
+                            "orientation": "vertical",
+                            "content": [
+                                {
+                                    "type": "itemgrid",
+                                    "h_alignment": "center",
+                                    "item_size": "96",
+                                    "item_margin": "1,2",
+                                    "rows": [
+                                        [ "dectus_left", "dectus_right", "rold", "haligtree_left", "haligtree_right" ]                  
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type":"array",
+                            "orientation": "vertical",
+                            "content": [
+                                {
+                                    "type": "itemgrid",
+                                    "h_alignment": "center",
+                                    "item_size": "96",
+                                    "item_margin": "1,2",
+                                    "rows": [
+                                        [ "carian_statue", "darkmoon_ring", "pureblood_medal", "imbued_key" ]                  
+                                    ]
+                                }
+                            ]
+                        }           
+                    ]
+                }
+            ]
+        }
+    }
+}

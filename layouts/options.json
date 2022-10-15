@@ -1,0 +1,73 @@
+{
+    "layout_settings": {
+        "type": "array",
+        "orientation": "horizontal",
+        "v_alignment": "center",
+        "margin": "10",
+        "content": [
+            // Tracker settings
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_size": "204",
+                "margin": "0,-20,0,0",
+                "item_margin": "3,-70,3,-70",
+                "rows": [
+                    [ "tracker_settings_header" ],
+                    [ "require_bosses", "gostoc_door" ]
+                ]
+            },
+            // Randomizer settings
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_size": "204",
+                "margin": "0,-40,0,0",
+                "item_margin": "0,-25,0,-140",
+                "rows": [
+                    [ "rando_settings_header" ],
+                    [ "required_runes" ],
+                    [ "flask_upgrades", "locations_merchant" ],
+                    [ "locations_minor_bosses", "locations_night_bosses" ],
+                    [ "locations_talismans", "locations_minidungeons" ]
+                ]
+            }
+        ]
+    },
+
+    "layout_settings_vertical": {
+        "type": "array",
+        "orientation": "vertical",
+        "v_alignment": "center",
+        "margin": "10",
+        "content": [
+            // Tracker settings
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_size": "204",
+                "margin": "0,-20,0,0",
+                "item_margin": "3,-70,3,-70",
+                "rows": [
+                    [ "tracker_settings_header" ],
+                    [ "require_bosses", "gostoc_door" ]
+                ]
+            },
+            // Randomizer settings
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_size": "204",
+                "margin": "0,-20,0,0",
+                "item_margin": "0,-25,0,-140",
+                "rows": [
+                    [ "rando_settings_header" ],
+                    [ "required_runes" ],
+                    [ "flask_upgrades", "locations_merchant" ],
+                    [ "locations_minor_bosses", "locations_night_bosses" ],
+                    [ "locations_talismans", "locations_minidungeons" ]
+                ]
+            }
+        ]
+    }
+}

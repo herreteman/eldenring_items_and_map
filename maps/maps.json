@@ -1,0 +1,165 @@
+﻿[
+  {
+    "name": "limgrave_map",
+    "location_size": 32,
+    "location_border_thickness": 5,
+    "img": "images/maps/map_limgrave.jpg"
+  },
+  {
+    "name": "stormhill_map",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/map_stormhill.jpg"
+  },
+  {
+    "name": "stormveil_map",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/map_stormveil.jpg"
+  },
+  {
+    "name": "weeping_map",
+    "location_size": 32,
+    "location_border_thickness": 5,
+    "img": "images/maps/map_weeping.jpg"
+  },
+  {
+    "name": "liurnia_map",
+    "location_size": 48,
+    "location_border_thickness": 5,
+    "img": "images/maps/map_liurnia.jpg"
+  },
+  {
+    "name": "belfry_chapel_map",
+    "location_size": 16,
+    "location_border_thickness": 3,
+    "img": "images/maps/map_belfry_chapel.jpg"
+  },
+  {
+    "name": "belfry_azula_map",
+    "location_size": 16,
+    "location_border_thickness": 3,
+    "img": "images/maps/map_belfry_azula.jpg"
+  },
+  {
+    "name": "belfry_nokron_map",
+    "location_size": 16,
+    "location_border_thickness": 3,
+    "img": "images/maps/map_belfry_nokron.jpg"
+  },
+  {
+    "name": "bellum_map",
+    "location_size": 32,
+    "location_border_thickness": 5,
+    "img": "images/maps/map_bellum.jpg"
+  },
+  {
+    "name": "academy_map",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/map_academy.jpg"
+  },
+  {
+    "name": "caelid_map",
+    "location_size": 32,
+    "location_border_thickness": 5,
+    "img": "images/maps/map_caelid.jpg"
+  },
+  {
+    "name": "dragonbarrow_map",
+    "location_size": 32,
+    "location_border_thickness": 5,
+    "img": "images/maps/map_dragonbarrow.jpg"
+  },
+  {
+    "name": "altus_map",
+    "location_size": 32,
+    "location_border_thickness": 5,
+    "img": "images/maps/map_altus.jpg"
+  },
+  {
+    "name": "outskirts_map",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/map_outskirts.jpg"
+  },
+  {
+    "name": "leyndell_map",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/map_leyndell.jpg"
+  },
+  {
+    "name": "leyndell_ash_map",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/map_leyndell.jpg"
+  },
+  {
+    "name": "gelmir_map",
+    "location_size": 32,
+    "location_border_thickness": 5,
+    "img": "images/maps/map_gelmir.jpg"
+  },
+  {
+    "name": "forbidden_map",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/map_forbidden.jpg"
+  },
+  {
+    "name": "mountaintops_map",
+    "location_size": 38,
+    "location_border_thickness": 5,
+    "img": "images/maps/map_mountaintops.jpg"
+  },
+  {
+    "name": "azula_map",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/map_azula.jpg"
+  },
+  {
+    "name": "snowfield_map",
+    "location_size": 32,
+    "location_border_thickness": 5,
+    "img": "images/maps/map_snowfield.jpg"
+  },
+  {
+    "name": "haligtree_map",
+    "location_size": 32,
+    "location_border_thickness": 5,
+    "img": "images/maps/map_haligtree.jpg"
+  },
+  
+  {
+    "name": "siofra_map",
+    "location_size": 32,
+    "location_border_thickness": 5,
+    "img": "images/maps/map_siofra.jpg"
+  },
+  {
+    "name": "ainsel_map",
+    "location_size": 32,
+    "location_border_thickness": 5,
+    "img": "images/maps/map_ainsel.jpg"
+  },
+  {
+    "name": "ainsel_map_astel",
+    "location_size": 32,
+    "location_border_thickness": 5,
+    "img": "images/maps/map_ainsel_astel.jpg"
+  },
+  {
+    "name": "mohgwyn_map",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/map_mohgwyn.jpg"
+  },
+  {
+    "name": "deeproot_map",
+    "location_size": 32,
+    "location_border_thickness": 5,
+    "img": "images/maps/map_deeproot.jpg"
+  },
+]

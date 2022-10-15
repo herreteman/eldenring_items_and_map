@@ -1,0 +1,212 @@
+[
+  {
+    "name": "Crumbling Farum Azula",
+    "access_rules": [
+      "$azula"
+    ],
+    "children": [
+      {
+        "name": "Center of Farum Azula's storm",
+        "access_rules": [
+          "$late_azula"
+        ],
+        "map_locations": [
+          {
+            "map": "azula_map",
+            "x": 388,
+            "y": 302
+          }
+        ],
+        "sections": [
+          {
+            "name": "Dragonlord Placidusax",
+            "chest_unopened_img": "images/icons/bosses/icon_placidusax.png",
+            "chest_opened_img": "images/icons/bosses/icon_placidusax_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Dragon Temple Altar",
+        "map_locations": [
+          {
+            "map": "azula_map",
+            "x": 387,
+            "y": 239
+          }
+        ],
+        "sections": [
+          {
+            "name": "Godskin Duo",
+            "chest_unopened_img": "images/icons/bosses/icon_godskin.png",
+            "chest_opened_img": "images/icons/bosses/icon_godskin_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Farum Azula Great Bridge",
+        "access_rules": [
+          "$late_azula"
+        ],
+        "map_locations": [
+          {
+            "map": "azula_map",
+            "x": 525,
+            "y": 266
+          }
+        ],
+        "sections": [
+          {
+            "name": "Maliketh, the Black Blade",
+            "chest_unopened_img": "images/icons/bosses/icon_maliketh.png",
+            "chest_opened_img": "images/icons/bosses/icon_maliketh_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Above Dragon Temple (2 keys)",
+        "access_rules": [
+          "$late_azula, flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "azula_map",
+            "x": 363,
+            "y": 239
+          }
+        ],
+        "sections": [
+          {
+            "name": "Phantom Tree",
+            "chest_unopened_img": "images/icons/icon_flask.png",
+            "chest_opened_img": "images/icons/icon_flask_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Near Farum Azula's last Lansseax",
+        "access_rules": [
+          "$late_azula, flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "azula_map",
+            "x": 498,
+            "y": 164
+          }
+        ],
+        "sections": [
+          {
+            "name": "Phantom Tree",
+            "chest_unopened_img": "images/icons/icon_flask.png",
+            "chest_opened_img": "images/icons/icon_flask_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Lower path after last Lansseax",
+        "access_rules": [
+          "$late_azula, talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "azula_map",
+            "x": 440,
+            "y": 131
+          }
+        ],
+        "sections": [
+          {
+            "name": "Window corpse after long path",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Farum Azula floating rubble",
+        "access_rules": [
+          "$late_azula, talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "azula_map",
+            "x": 378,
+            "y": 148
+          }
+        ],
+        "sections": [
+          {
+            "name": "Corpse in left island",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Path opposite to Maliketh",
+        "access_rules": [
+          "$late_azula, talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "azula_map",
+            "x": 487,
+            "y": 131
+          }
+        ],
+        "sections": [
+          {
+            "name": "Lidded chest",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+    ]
+  },
+  {
+    "name": "Farum Azula via Belfries",
+    "access_rules": [
+      "imbued_key:3, talismans_true",
+      "[imbued_key:3], imbued_key:1, talismans_true"
+    ],
+    "children": [
+      {
+        "name": "Farum Azula via Belfries",
+        "map_locations": [
+          {
+            "map": "azula_map",
+            "x": 39,
+            "y": 181
+          },
+          {
+            "map": "belfry_azula_map",
+            "x": 51,
+            "y": 20
+          },
+          {
+            "map": "liurnia_map",
+            "x": 185,
+            "y": 933
+          }
+        ],
+        "sections": [
+          {
+            "name": "Corpse on lower debris",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+    ]
+  }
+]

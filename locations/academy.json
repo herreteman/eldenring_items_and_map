@@ -1,0 +1,238 @@
+[
+  {
+    "name": "Acaemy of Raya Lucaria",
+    "access_rules": [
+      "glintstone_key"
+    ],
+    "children": [
+      {
+        "name": "Raya Lucaria Grand Library",
+        "access_rules": [
+          "$rennala_chest"
+        ],
+        "map_locations": [
+          {
+            "map": "academy_map",
+            "x": 138,
+            "y": 148
+          }
+        ],
+        "sections": [
+          {
+            "name": "Locked chest",
+            "chest_unopened_img": "images/icons/icon_keyitem.png",
+            "chest_opened_img": "images/icons/icon_keyitem_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Raya Lucaria rooftops",
+        "access_rules": [
+          "$rennala"
+        ],
+        "map_locations": [
+          {
+            "map": "academy_map",
+            "x": 112,
+            "y": 290
+          }
+        ],
+        "sections": [
+          {
+            "name": "Imbued Sword corpse",
+            "chest_unopened_img": "images/icons/icon_keyitem.png",
+            "chest_opened_img": "images/icons/icon_keyitem_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Raya Lucaria Debate Parlor",
+        "map_locations": [
+          {
+            "map": "academy_map",
+            "x": 233,
+            "y": 329
+          }
+        ],
+        "sections": [
+          {
+            "name": "Red Wolf of Radagon",
+            "chest_unopened_img": "images/icons/bosses/icon_redwolf.png",
+            "chest_opened_img": "images/icons/bosses/icon_redwolf_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Raya Lucaria Grand Library",
+        "access_rules": [
+          "$rennala"
+        ],
+        "map_locations": [
+          {
+            "map": "academy_map",
+            "x": 138,
+            "y": 172
+          }
+        ],
+        "sections": [
+          {
+            "name": "Rennala, Queen of the Full Moon",
+            "chest_unopened_img": "images/icons/bosses/icon_rennala.png",
+            "chest_opened_img": "images/icons/bosses/icon_rennala_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Upper Raya Lucaria",
+        "access_rules": [
+          "$rennala, flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "academy_map",
+            "x": 192,
+            "y": 236
+          }
+        ],
+        "sections": [
+          {
+            "name": "Phantom Tree",
+            "chest_unopened_img": "images/icons/icon_flask.png",
+            "chest_opened_img": "images/icons/icon_flask_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Main Academy Gate north bridge",
+        "access_rules": [
+          "flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "academy_map",
+            "x": 204,
+            "y": 17
+          }
+        ],
+        "sections": [
+          {
+            "name": "Golden Tree",
+            "chest_unopened_img": "images/icons/icon_flask.png",
+            "chest_opened_img": "images/icons/icon_flask_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Main Academy Gate east bridge",
+        "access_rules": [
+          "merchants_true"
+        ],
+        "map_locations": [
+          {
+            "map": "academy_map",
+            "x": 274,
+            "y": 271
+          }
+        ],
+        "sections": [
+          {
+            "name": "Isolated Merchant",
+            "chest_unopened_img": "images/icons/icon_shop.png",
+            "chest_opened_img": "images/icons/icon_shop_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Upper Raya Lucaria",
+        "access_rules": [
+          "$rennala, talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "academy_map",
+            "x": 232,
+            "y": 212
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ball spawn chest",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Raya Lucaria Debate Parlor",
+        "access_rules": [
+          "$rennala, talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "academy_map",
+            "x": 233,
+            "y": 305
+          }
+        ],
+        "sections": [
+          {
+            "name": "Second floor chest",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Raya Lucaria secret room",
+        "access_rules": [
+          "talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "academy_map",
+            "x": 200,
+            "y": 323
+          }
+        ],
+        "sections": [
+          {
+            "name": "On a pile of crystals",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Raya Lucaria rotating lift bottom",
+        "access_rules": [
+          "talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "academy_map",
+            "x": 202,
+            "y": 273
+          }
+        ],
+        "sections": [
+          {
+            "name": "Guarded corpse",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+    ]
+  }
+]

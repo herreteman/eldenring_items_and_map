@@ -1,0 +1,666 @@
+{
+    "tracker_default": {
+        "type": "container",
+        "background": "#877373",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "left",
+                    "v_alignment": "stretch",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Items",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "shared_item_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "content": {
+                                "type": "tabbed",
+                                    "tabs": [
+                                        {
+                                            "title": "Pinned locations",
+                                            "type": "container",
+                                            "content": {
+                                                "type": "recentpins",
+                                                    "style": "wrap",
+                                                    "h_alignment": "stretch",
+                                                    "v_alignment": "stretch",
+                                                    "orientation": "vertical",
+                                                    "compact": true
+                                            }
+                                        },
+                                        {
+                                            "title": "Settings",
+                                            "type": "container",
+                                            "content": {
+                                                "type": "layout",
+                                                "key": "layout_settings_vertical"
+                                            }
+                                        }
+                                    ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Limgrave",
+                            "type": "container",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Mainland Limgrave",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "limgrave_map"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Stormhill",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "stormhill_map"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Stormveil Castle",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "stormveil_map"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Weeping Peninsula",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "weeping_map"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Luirnia of the Lakes",
+                            "type": "container",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Main lake",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "liurnia_map"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Bellum Highway",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "bellum_map"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Raya Lucaria Academy",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "academy_map"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Four Belfries",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "belfry_chapel_map",
+                                                "belfry_azula_map",
+                                                "belfry_nokron_map"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Caelid",
+                            "type": "container",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Mainland Caelid",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "caelid_map"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Greyoll's Dragonbarrow",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "dragonbarrow_map"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Altus Plateau",
+                            "type": "container",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Main Plateau",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "altus_map"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Capital Outskirts",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "outskirts_map"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Leyndell, Royal Capital",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "leyndell_map"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Mt. Gelmir & Volcano Manor",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "gelmir_map"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Leyndell, Ashen Capital",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "leyndell_ash_map"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Mountaintops of the Giants",
+                            "type": "container",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Forbidden Lands",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "forbidden_map"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Mountaintops and Flame Peak",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "mountaintops_map"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Consecrated Snowfield",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "snowfield_map"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Miquella's Haligtree",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "haligtree_map"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Crumbling Farum Azula",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "azula_map"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Underground",
+                            "type": "container",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Siofra River / Nokron",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "siofra_map"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Ainsel River / Lake of Rot",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "ainsel_map",
+                                                "ainsel_map_astel"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Deeproot Depths",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "deeproot_map"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Mohgwyn",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "mohgwyn_map"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                    ]
+                }
+            ]
+        }
+    },
+    "tracker_horizontal": {
+        "type": "container",
+        "background": "#877373",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "bottom",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Items",
+                            "margin": "0,0,3,0",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "shared_item_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "content": {
+                                "type": "tabbed",
+                                    "tabs": [
+                                        {
+                                            "title": "Pinned locations",
+                                            "type": "container",
+                                            "content": {
+                                                "type": "recentpins",
+                                                    "style": "wrap",
+                                                    "h_alignment": "stretch",
+                                                    "v_alignment": "stretch",
+                                                    "orientation": "vertical",
+                                                    "compact": true
+                                            }
+                                        },
+                                        {
+                                            "title": "Settings",
+                                            "type": "container",
+                                            "content": {
+                                                "type": "layout",
+                                                "key": "layout_settings"
+                                            }
+                                        }
+                                    ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Limgrave",
+                            "type": "container",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Mainland Limgrave",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "limgrave_map"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Stormhill",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "stormhill_map"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Stormveil Castle",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "stormveil_map"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Weeping Peninsula",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "weeping_map"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Liurnia of the Lakes",
+                            "type": "container",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Main lake",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "liurnia_map"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Bellum Highway",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "bellum_map"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Raya Lucaria Academy",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "academy_map"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Four Belfries",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "belfry_chapel_map",
+                                                "belfry_azula_map",
+                                                "belfry_nokron_map"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Caelid",
+                            "type": "container",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Mainland Caelid",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "caelid_map"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Greyoll's Dragonbarrow",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "dragonbarrow_map"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Altus Plateau",
+                            "type": "container",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Main Plateau",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "altus_map"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Capital Outskirts",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "outskirts_map"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Leyndell, Royal Capital",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "leyndell_map"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Mt. Gelmir & Volcano Manor",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "gelmir_map"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Leyndell, Ashen Capital",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "leyndell_ash_map"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Mountaintops of the Giants",
+                            "type": "container",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Forbidden Lands",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "forbidden_map"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Mountaintops and Flame Peak",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "mountaintops_map"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Consecrated Snowfield",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "snowfield_map"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Miquella's Haligtree",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "haligtree_map"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Crumbling Farum Azula",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "azula_map"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Underground",
+                            "type": "container",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Siofra River / Nokron",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "siofra_map"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Ainsel River / Lake of Rot",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "ainsel_map",
+                                                "ainsel_map_astel"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Deeproot Depths",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "deeproot_map"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Mohgwyn",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "mohgwyn_map"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                    ]
+                }
+            ]
+        }
+    }
+}

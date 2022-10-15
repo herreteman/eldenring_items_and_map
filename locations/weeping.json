@@ -1,0 +1,340 @@
+[
+  {
+    "name": "Weeping Peninsula",
+    "children": [
+      {
+        "name": "Castle Morne",
+        "map_locations": [
+          {
+            "map": "weeping_map",
+            "x": 515,
+            "y": 951
+          }
+        ],
+        "sections": [
+          {
+            "name": "Leonine Misbegotten",
+            "chest_unopened_img": "images/icons/bosses/icon_leonine.png",
+            "chest_opened_img": "images/icons/bosses/icon_leonine_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Church of Pilgrimage",
+        "access_rules": [
+          "flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "weeping_map",
+            "x": 454,
+            "y": 62
+          }
+        ],
+        "sections": [
+          {
+            "name": "Under the statue",
+            "chest_unopened_img": "images/icons/icon_church.png",
+            "chest_opened_img": "images/icons/icon_church_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Callu Baptismal Church",
+        "access_rules": [
+          "flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "weeping_map",
+            "x": 669,
+            "y": 403
+          }
+        ],
+        "sections": [
+          {
+            "name": "Under the statue",
+            "chest_unopened_img": "images/icons/icon_church.png",
+            "chest_opened_img": "images/icons/icon_church_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Fourth Church of Marika",
+        "access_rules": [
+          "flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "weeping_map",
+            "x": 205,
+            "y": 300
+          }
+        ],
+        "sections": [
+          {
+            "name": "Under the state",
+            "chest_unopened_img": "images/icons/icon_church.png",
+            "chest_opened_img": "images/icons/icon_church_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Road to Castle Morne",
+        "access_rules": [
+          "flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "weeping_map",
+            "x": 695,
+            "y": 553
+          }
+        ],
+        "sections": [
+          {
+            "name": "Phantom tree",
+            "chest_unopened_img": "images/icons/icon_flask.png",
+            "chest_opened_img": "images/icons/icon_flask_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Isolated Merchant's Shack",
+        "access_rules": [
+          "merchants_true"
+        ],
+        "map_locations": [
+          {
+            "map": "weeping_map",
+            "x": 145,
+            "y": 460
+          }
+        ],
+        "sections": [
+          {
+            "name": "Isolated Merchant",
+            "chest_unopened_img": "images/icons/icon_shop.png",
+            "chest_opened_img": "images/icons/icon_shop_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Weeping Evergaol (1 key)",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "weeping_map",
+            "x": 256,
+            "y": 265
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ancient Hero of Zamor",
+            "chest_unopened_img": "images/icons/icon_evergaol.png",
+            "chest_opened_img": "images/icons/icon_evergaol_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Weeping Peninsula Minor Erdtree",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "weeping_map",
+            "x": 495,
+            "y": 388
+          }
+        ],
+        "sections": [
+          {
+            "name": "Erdtree Avatar",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Earthbore Cave",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "weeping_map",
+            "x": 659,
+            "y": 179
+          }
+        ],
+        "sections": [
+          {
+            "name": "Runebear",
+            "chest_unopened_img": "images/icons/icon_cave.png",
+            "chest_opened_img": "images/icons/icon_cave_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Impaler's Catacombs",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "weeping_map",
+            "x": 917,
+            "y": 188
+          }
+        ],
+        "sections": [
+          {
+            "name": "Erdtree Burial Watchdog",
+            "chest_unopened_img": "images/icons/icon_catacombs.png",
+            "chest_opened_img": "images/icons/icon_catacombs_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Morne Tunnel",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "weeping_map",
+            "x": 567,
+            "y": 403
+          }
+        ],
+        "sections": [
+          {
+            "name": "Scaly Misbegotten",
+            "chest_unopened_img": "images/icons/icon_tunnel.png",
+            "chest_opened_img": "images/icons/icon_tunnel_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Tombsward Catacombs",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "weeping_map",
+            "x": 466,
+            "y": 263
+          }
+        ],
+        "sections": [
+          {
+            "name": "Cemetery Shade",
+            "chest_unopened_img": "images/icons/icon_catacombs.png",
+            "chest_opened_img": "images/icons/icon_catacombs_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Tombsward Cave",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "weeping_map",
+            "x": 253,
+            "y": 323
+          }
+        ],
+        "sections": [
+          {
+            "name": "Miranda the Blighted Bloom",
+            "chest_unopened_img": "images/icons/icon_cave.png",
+            "chest_opened_img": "images/icons/icon_cave_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Castle Morne exterior (night)",
+        "access_rules": [
+          "minor_bosses_true, night_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "weeping_map",
+            "x": 662,
+            "y": 549
+          }
+        ],
+        "sections": [
+          {
+            "name": "Deathbird",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Castle Morne Rampart (night)",
+        "access_rules": [
+          "minor_bosses_true, night_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "weeping_map",
+            "x": 801,
+            "y": 422
+          }
+        ],
+        "sections": [
+          {
+            "name": "Night's Cavalry",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Castle Morne",
+        "access_rules": [
+          "talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "weeping_map",
+            "x": 506,
+            "y": 800
+          }
+        ],
+        "sections": [
+          {
+            "name": "Back tower chest",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+    ]
+  }
+]

@@ -1,0 +1,360 @@
+[
+  {
+    "name": "Dragonbarrow",
+    "children": [
+      {
+        "name": "Fort Farroth",
+        "access_rules": [
+          "talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "dragonbarrow_map",
+            "x": 685,
+            "y": 877
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest up first ladder",
+            "chest_unopened_img": "images/icons/icon_keyitem.png",
+            "chest_opened_img": "images/icons/icon_keyitem_checked.png",
+            "item_count": 1
+          },
+          {
+            "name": "Hidden corpse",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Fort Farroth",
+        "access_rules": [
+          "talismans_false"
+        ],
+        "map_locations": [
+          {
+            "map": "dragonbarrow_map",
+            "x": 685,
+            "y": 877
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest up first ladder",
+            "chest_unopened_img": "images/icons/icon_keyitem.png",
+            "chest_opened_img": "images/icons/icon_keyitem_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Road to Bestial Sanctum",
+        "access_rules": [
+          "flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "dragonbarrow_map",
+            "x": 783,
+            "y": 230
+          }
+        ],
+        "sections": [
+          {
+            "name": "Phantom Tree",
+            "chest_unopened_img": "images/icons/icon_flask.png",
+            "chest_opened_img": "images/icons/icon_flask_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Isolated Merchant's Shack (Dragonbarrow)",
+        "access_rules": [
+          "merchants_true"
+        ],
+        "map_locations": [
+          {
+            "map": "dragonbarrow_map",
+            "x": 62,
+            "y": 627
+          }
+        ],
+        "sections": [
+          {
+            "name": "Isolated Merchant",
+            "chest_unopened_img": "images/icons/icon_shop.png",
+            "chest_opened_img": "images/icons/icon_shop_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Sellia Evergaol",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "dragonbarrow_map",
+            "x": 259,
+            "y": 948
+          }
+        ],
+        "sections": [
+          {
+            "name": "Battlemage Hugues",
+            "chest_unopened_img": "images/icons/icon_evergaol.png",
+            "chest_opened_img": "images/icons/icon_evergaol_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Bestial Sanctum",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "dragonbarrow_map",
+            "x": 710,
+            "y": 175
+          }
+        ],
+        "sections": [
+          {
+            "name": "Black Blade Kindred",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Farum Greatbridge",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "dragonbarrow_map",
+            "x": 836,
+            "y": 460
+          }
+        ],
+        "sections": [
+          {
+            "name": "Flying Dragon Greyll",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Dragonbarrow Minor Erdtree",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "dragonbarrow_map",
+            "x": 759,
+            "y": 692
+          }
+        ],
+        "sections": [
+          {
+            "name": "Putrid Avatar",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Sellia Hideaway",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "dragonbarrow_map",
+            "x": 624,
+            "y": 907
+          }
+        ],
+        "sections": [
+          {
+            "name": "Putrid Crystallians",
+            "chest_unopened_img": "images/icons/icon_cave.png",
+            "chest_opened_img": "images/icons/icon_cave_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Dragonbarrow Cave",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true, talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "dragonbarrow_map",
+            "x": 727,
+            "y": 692
+          }
+        ],
+        "sections": [
+          {
+            "name": "Corpse surrounded by wildlife",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          },
+          {
+            "name": "Beastman of Farum Azula",
+            "chest_unopened_img": "images/icons/icon_cave.png",
+            "chest_opened_img": "images/icons/icon_cave_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Dragonbarrow Cave",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true, talismans_false"
+        ],
+        "map_locations": [
+          {
+            "map": "dragonbarrow_map",
+            "x": 727,
+            "y": 692
+          }
+        ],
+        "sections": [
+          {
+            "name": "Beastman of Farum Azula",
+            "chest_unopened_img": "images/icons/icon_cave.png",
+            "chest_opened_img": "images/icons/icon_cave_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Dragonbarrow Cave",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_false, talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "dragonbarrow_map",
+            "x": 727,
+            "y": 692
+          }
+        ],
+        "sections": [
+          {
+            "name": "Corpse surrounded by wildlife",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Isolated Merchant's Shack (Dragonbarrow) (night)",
+        "access_rules": [
+          "minor_bosses_true, night_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "dragonbarrow_map",
+            "x": 98,
+            "y": 627
+          }
+        ],
+        "sections": [
+          {
+            "name": "Bell Bearing Hunter",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Lenne's Rise (night)",
+        "access_rules": [
+          "minor_bosses_true, night_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "dragonbarrow_map",
+            "x": 930,
+            "y": 492
+          }
+        ],
+        "sections": [
+          {
+            "name": "Night's Cavalry",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Bestial Sanctum cliffside",
+        "access_rules": [
+          "talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "dragonbarrow_map",
+            "x": 665,
+            "y": 91
+          }
+        ],
+        "sections": [
+          {
+            "name": "Corpse after many drops",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+    ]
+  },
+  {
+    "name": "Divine Tower of Caelid",
+    "children": [
+      {
+        "name": "Divine Tower of Caelid",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "dragonbarrow_map",
+            "x": 388,
+            "y": 589
+          }
+        ],
+        "sections": [
+          {
+            "name": "Godskin Apostle",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+    ]
+  }
+]

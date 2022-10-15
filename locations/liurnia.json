@@ -1,0 +1,808 @@
+[
+  {
+    "name": "Liurnia of the Lakes",
+    "children": [
+      {
+        "name": "Village of the Albinaurics",
+        "map_locations": [
+          {
+            "map": "liurnia_map",
+            "x": 363,
+            "y": 1919
+          }
+        ],
+        "sections": [
+          {
+            "name": "Old Albus",
+            "chest_unopened_img": "images/icons/icon_keyitem.png",
+            "chest_opened_img": "images/icons/icon_keyitem_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "West of Raya Lucaria",
+        "map_locations": [
+          {
+            "map": "liurnia_map",
+            "x": 263,
+            "y": 1159
+          }
+        ],
+        "sections": [
+          {
+            "name": "Dragon-guarded island",
+            "chest_unopened_img": "images/icons/icon_keyitem.png",
+            "chest_opened_img": "images/icons/icon_keyitem_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Four Belfries",
+        "map_locations": [
+          {
+            "map": "liurnia_map",
+            "x": 171,
+            "y": 854
+          }
+        ],
+        "sections": [
+          {
+            "name": "Topmost belfry chest",
+            "chest_unopened_img": "images/icons/icon_keyitem.png",
+            "chest_opened_img": "images/icons/icon_keyitem_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Caria Manor",
+        "map_locations": [
+          {
+            "map": "liurnia_map",
+            "x": 472,
+            "y": 131
+          }
+        ],
+        "sections": [
+          {
+            "name": "Royal Knight Loretta",
+            "chest_unopened_img": "images/icons/bosses/icon_lorettaghost.png",
+            "chest_opened_img": "images/icons/bosses/icon_lorettaghost_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Church of Irith",
+        "access_rules": [
+          "flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "liurnia_map",
+            "x": 1267,
+            "y": 2315
+          }
+        ],
+        "sections": [
+          {
+            "name": "Under the statue",
+            "chest_unopened_img": "images/icons/icon_church.png",
+            "chest_opened_img": "images/icons/icon_church_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Upper Caria Manor",
+        "access_rules": [
+          "flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "liurnia_map",
+            "x": 546,
+            "y": 216
+          }
+        ],
+        "sections": [
+          {
+            "name": "Phantom Tree",
+            "chest_unopened_img": "images/icons/icon_flask.png",
+            "chest_opened_img": "images/icons/icon_flask_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ravine-Veiled Village",
+        "access_rules": [
+          "flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "liurnia_map",
+            "x": 976,
+            "y": 119
+          }
+        ],
+        "sections": [
+          {
+            "name": "Phantom Tree",
+            "chest_unopened_img": "images/icons/icon_flask.png",
+            "chest_opened_img": "images/icons/icon_flask_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Academy Gate Town",
+        "access_rules": [
+          "flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "liurnia_map",
+            "x": 705,
+            "y": 1389
+          }
+        ],
+        "sections": [
+          {
+            "name": "Phantom Tree",
+            "chest_unopened_img": "images/icons/icon_flask.png",
+            "chest_opened_img": "images/icons/icon_flask_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Road to the Manor",
+        "access_rules": [
+          "merchants_true"
+        ],
+        "map_locations": [
+          {
+            "map": "liurnia_map",
+            "x": 337,
+            "y": 460
+          }
+        ],
+        "sections": [
+          {
+            "name": "War Counselor Iji",
+            "chest_unopened_img": "images/icons/icon_shop.png",
+            "chest_opened_img": "images/icons/icon_shop_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Caria Manor rooftops",
+        "access_rules": [
+          "$ranni, merchants_true"
+        ],
+        "map_locations": [
+          {
+            "map": "liurnia_map",
+            "x": 412,
+            "y": 226
+          }
+        ],
+        "sections": [
+          {
+            "name": "Pidia, Carian Servant",
+            "chest_unopened_img": "images/icons/icon_shop.png",
+            "chest_opened_img": "images/icons/icon_shop_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Liurnia Lake Shore",
+        "access_rules": [
+          "merchants_true"
+        ],
+        "map_locations": [
+          {
+            "map": "liurnia_map",
+            "x": 1128,
+            "y": 2015
+          }
+        ],
+        "sections": [
+          {
+            "name": "Nomadic Merchant",
+            "chest_unopened_img": "images/icons/icon_shop.png",
+            "chest_opened_img": "images/icons/icon_shop_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Malefactor's Evergaol",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "liurnia_map",
+            "x": 1090,
+            "y": 2077
+          }
+        ],
+        "sections": [
+          {
+            "name": "Adan, Thief of Fire",
+            "chest_unopened_img": "images/icons/icon_evergaol.png",
+            "chest_opened_img": "images/icons/icon_evergaol_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Cuckoo's Evergaol",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "liurnia_map",
+            "x": 75,
+            "y": 1230
+          }
+        ],
+        "sections": [
+          {
+            "name": "Vols, Carian Knight",
+            "chest_unopened_img": "images/icons/icon_evergaol.png",
+            "chest_opened_img": "images/icons/icon_evergaol_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Liurnia Minor Erdtree",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "liurnia_map",
+            "x": 127,
+            "y": 1559
+          }
+        ],
+        "sections": [
+          {
+            "name": "Erdtree Avatar",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "West of Raya Lucaria",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "liurnia_map",
+            "x": 263,
+            "y": 1207
+          }
+        ],
+        "sections": [
+          {
+            "name": "Glintstone Dragon Smarag",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Village of the Albinaurics",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "liurnia_map",
+            "x": 360,
+            "y": 1848
+          }
+        ],
+        "sections": [
+          {
+            "name": "Omenkiller",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Royal Grave Evergaol",
+        "access_rules": [
+          "$ranni, minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "liurnia_map",
+            "x": 772,
+            "y": 197
+          }
+        ],
+        "sections": [
+          {
+            "name": "Onyx Lord",
+            "chest_unopened_img": "images/icons/icon_evergaol.png",
+            "chest_opened_img": "images/icons/icon_evergaol_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "East Liurnia",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "liurnia_map",
+            "x": 1241,
+            "y": 1455
+          }
+        ],
+        "sections": [
+          {
+            "name": "Tibia Mariner",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Academy Crystal Cave (2 keys)",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "liurnia_map",
+            "x": 354,
+            "y": 1108
+          }
+        ],
+        "sections": [
+          {
+            "name": "Crystallians",
+            "chest_unopened_img": "images/icons/icon_cave.png",
+            "chest_opened_img": "images/icons/icon_cave_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Black Knife Catacombs",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "liurnia_map",
+            "x": 1234,
+            "y": 519
+          }
+        ],
+        "sections": [
+          {
+            "name": "Black Knife Assassin",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          },
+          {
+            "name": "Cemetery Shade",
+            "chest_unopened_img": "images/icons/icon_catacombs.png",
+            "chest_opened_img": "images/icons/icon_catacombs_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Cliffbottom Catacombs",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "liurnia_map",
+            "x": 1351,
+            "y": 1943
+          }
+        ],
+        "sections": [
+          {
+            "name": "Erdtree Burial Watchdog",
+            "chest_unopened_img": "images/icons/icon_catacombs.png",
+            "chest_opened_img": "images/icons/icon_catacombs_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Lakeside Crystal Cave",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true, talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "liurnia_map",
+            "x": 804,
+            "y": 2000
+          }
+        ],
+        "sections": [
+          {
+            "name": "Guarded chest",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          },
+          {
+            "name": "Bloodhound Knight",
+            "chest_unopened_img": "images/icons/icon_cave.png",
+            "chest_opened_img": "images/icons/icon_cave_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Lakeside Crystal Cave",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true, talismans_false"
+        ],
+        "map_locations": [
+          {
+            "map": "liurnia_map",
+            "x": 804,
+            "y": 2000
+          }
+        ],
+        "sections": [
+          {
+            "name": "Bloodhound Knight",
+            "chest_unopened_img": "images/icons/icon_cave.png",
+            "chest_opened_img": "images/icons/icon_cave_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Lakeside Crystal Cave",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_false, talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "liurnia_map",
+            "x": 804,
+            "y": 2000
+          }
+        ],
+        "sections": [
+          {
+            "name": "Guarded chest",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Raya Lucaria Crystal Tunnel",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "liurnia_map",
+            "x": 806,
+            "y": 790
+          }
+        ],
+        "sections": [
+          {
+            "name": "Crystallian",
+            "chest_unopened_img": "images/icons/icon_tunnel.png",
+            "chest_opened_img": "images/icons/icon_tunnel_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Road's End Catacombs",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "liurnia_map",
+            "x": 92,
+            "y": 1616
+          }
+        ],
+        "sections": [
+          {
+            "name": "Spiritcaller Snail",
+            "chest_unopened_img": "images/icons/icon_catacombs.png",
+            "chest_opened_img": "images/icons/icon_catacombs_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Stillwater Cave",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "liurnia_map",
+            "x": 1303,
+            "y": 2225
+          }
+        ],
+        "sections": [
+          {
+            "name": "Cleanrot Knight",
+            "chest_unopened_img": "images/icons/icon_cave.png",
+            "chest_opened_img": "images/icons/icon_cave_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Church of Vows (night)",
+        "access_rules": [
+          "minor_bosses_true, night_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "liurnia_map",
+            "x": 885,
+            "y": 984
+          }
+        ],
+        "sections": [
+          {
+            "name": "Bell Bearing Hunter",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Gate Town North (night)",
+        "access_rules": [
+          "minor_bosses_true, night_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "liurnia_map",
+            "x": 654,
+            "y": 1185
+          }
+        ],
+        "sections": [
+          {
+            "name": "Death Rite Bird",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Scenic Isle (night)",
+        "access_rules": [
+          "minor_bosses_true, night_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "liurnia_map",
+            "x": 862,
+            "y": 1711
+          }
+        ],
+        "sections": [
+          {
+            "name": "Deathbird",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Gate Town Bridge (night)",
+        "access_rules": [
+          "minor_bosses_true, night_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "liurnia_map",
+            "x": 1182,
+            "y": 1601
+          }
+        ],
+        "sections": [
+          {
+            "name": "Night's Cavalry",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+    ]
+  },
+  {
+    "name": "Divine Tower of Liurnia",
+    "children": [
+      {
+        "name": "Divine Tower of Liurnia",
+        "access_rules": [
+          "carian_statue"
+        ],
+        "map_locations": [
+          {
+            "map": "liurnia_map",
+            "x": 1602,
+            "y": 1312
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ranni's corpse",
+            "chest_unopened_img": "images/icons/icon_keyitem.png",
+            "chest_opened_img": "images/icons/icon_keyitem_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Carian Study Hall",
+        "access_rules": [
+          "talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "liurnia_map",
+            "x": 1269,
+            "y": 1370
+          }
+        ],
+        "sections": [
+          {
+            "name": "Second level rafters",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+    ]
+  },
+  {
+    "name": "Moonlight Altar",
+    "access_rules": [
+      "$moonlight_altar"
+    ],
+    "children": [
+      {
+        "name": "Ringleader's Evergaol",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "liurnia_map",
+            "x": 75,
+            "y": 1745
+          }
+        ],
+        "sections": [
+          {
+            "name": "Alecto, Black Knife Ringleader",
+            "chest_unopened_img": "images/icons/icon_evergaol.png",
+            "chest_opened_img": "images/icons/icon_evergaol_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Cathedral of Manus Celes",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "liurnia_map",
+            "x": 406,
+            "y": 1822
+          }
+        ],
+        "sections": [
+          {
+            "name": "Glintstone Dragon Adula",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Lunar Estate Ruins",
+        "access_rules": [
+          "talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "liurnia_map",
+            "x": 481,
+            "y": 1921
+          }
+        ],
+        "sections": [
+          {
+            "name": "Secret basement chest (1 key)",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+    ]
+  },
+  {
+    "name": "Chapel of Anticipation",
+    "access_rules": [
+      "imbued_key:3, talismans_true",
+      "[imbued_key:3], imbued_key:1, talismans_true"
+    ],
+    "children": [
+      {
+        "name": "Chapel of Anticipation",
+        "map_locations": [
+          {
+            "map": "liurnia_map",
+            "x": 204,
+            "y": 869
+          },
+          {
+            "map": "belfry_chapel_map",
+            "x": 70,
+            "y": 95
+          }
+        ],
+        "sections": [
+          {
+            "name": "Grafted Scion",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+    ]
+  }
+]

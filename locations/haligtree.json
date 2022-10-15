@@ -1,0 +1,133 @@
+[
+  {
+    "name": "Miquella's Haligtree",
+    "access_rules": [
+      "$snowfield"
+    ],
+    "children": [
+      {
+        "name": "Haligtree Promenade",
+        "map_locations": [
+          {
+            "map": "haligtree_map",
+            "x": 504,
+            "y": 576
+          }
+        ],
+        "sections": [
+          {
+            "name": "Loretta, Knight of the Haligtree",
+            "chest_unopened_img": "images/icons/bosses/icon_loretta.png",
+            "chest_opened_img": "images/icons/bosses/icon_loretta_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Haligtree Roots",
+        "access_rules": [
+          "$elphael"
+        ],
+        "map_locations": [
+          {
+            "map": "haligtree_map",
+            "x": 362,
+            "y": 369
+          }
+        ],
+        "sections": [
+          {
+            "name": "Malenia, Blade of Miquella",
+            "chest_unopened_img": "images/icons/bosses/icon_malenia.png",
+            "chest_opened_img": "images/icons/bosses/icon_malenia_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Haligtree Town Plaza",
+        "access_rules": [
+          "talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "haligtree_map",
+            "x": 377,
+            "y": 512
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest in lower building",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Building after Drainage Canal",
+        "access_rules": [
+          "$elphael, talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "haligtree_map",
+            "x": 489,
+            "y": 301
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest guarded by Kindred of Rot",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Elphael, Brace of the Haligtree",
+        "access_rules": [
+          "$elphael, talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "haligtree_map",
+            "x": 466,
+            "y": 427
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest behind Imp Barrier (2 keys)",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Haligtree Town",
+        "access_rules": [
+          "talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "haligtree_map",
+            "x": 409,
+            "y": 548
+          }
+        ],
+        "sections": [
+          {
+            "name": "Corpse up first ladder",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+    ]
+  }
+]

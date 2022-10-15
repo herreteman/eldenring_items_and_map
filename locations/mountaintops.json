@@ -1,0 +1,312 @@
+[
+  {
+    "name": "Mountaintops of the Giants",
+    "access_rules": [
+      "$mountaintops"
+    ],
+    "children": [
+      {
+        "name": "Castle Sol",
+        "map_locations": [
+          {
+            "map": "mountaintops_map",
+            "x": 561,
+            "y": 86
+          }
+        ],
+        "sections": [
+          {
+            "name": "Commander Niall",
+            "chest_unopened_img": "images/icons/bosses/icon_niall.png",
+            "chest_opened_img": "images/icons/bosses/icon_niall_checked.png",
+            "item_count": 1
+          },
+          {
+            "name": "Atop the tower after Niall",
+            "chest_unopened_img": "images/icons/icon_keyitem.png",
+            "chest_opened_img": "images/icons/icon_keyitem_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "First Church of Marika",
+        "access_rules": [
+          "flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "mountaintops_map",
+            "x": 1069,
+            "y": 587
+          }
+        ],
+        "sections": [
+          {
+            "name": "Under the statue",
+            "chest_unopened_img": "images/icons/icon_church.png",
+            "chest_opened_img": "images/icons/icon_church_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ancient Snow Valley Ruins",
+        "access_rules": [
+          "flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "mountaintops_map",
+            "x": 730,
+            "y": 342
+          }
+        ],
+        "sections": [
+          {
+            "name": "Phantom Tree",
+            "chest_unopened_img": "images/icons/icon_flask.png",
+            "chest_opened_img": "images/icons/icon_flask_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Near Stargazer's Ruins",
+        "access_rules": [
+          "merchants_true"
+        ],
+        "map_locations": [
+          {
+            "map": "mountaintops_map",
+            "x": 468,
+            "y": 492
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hermit Merchant",
+            "chest_unopened_img": "images/icons/icon_shop.png",
+            "chest_opened_img": "images/icons/icon_shop_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Freezing Lake",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "mountaintops_map",
+            "x": 974,
+            "y": 316
+          }
+        ],
+        "sections": [
+          {
+            "name": "Borealis the Freezing Fog",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Lord Contender's Evergaol",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "mountaintops_map",
+            "x": 857,
+            "y": 521
+          }
+        ],
+        "sections": [
+          {
+            "name": "Roundtable Knight Vyke",
+            "chest_unopened_img": "images/icons/icon_evergaol.png",
+            "chest_opened_img": "images/icons/icon_evergaol_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Mountaintops Minor Erdtree",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "mountaintops_map",
+            "x": 636,
+            "y": 395
+          }
+        ],
+        "sections": [
+          {
+            "name": "Cloning Erdtree Avatar",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Road to Castle Sol",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "mountaintops_map",
+            "x": 354,
+            "y": 280
+          }
+        ],
+        "sections": [
+          {
+            "name": "Death Rite Bird",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Giants' Mountaintops Catacombs",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "mountaintops_map",
+            "x": 318,
+            "y": 948
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ulcerated Tree Spirit",
+            "chest_unopened_img": "images/icons/icon_catacombs.png",
+            "chest_opened_img": "images/icons/icon_catacombs_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Spiritcaller Cave (2 keys)",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "mountaintops_map",
+            "x": 863,
+            "y": 348
+          }
+        ],
+        "sections": [
+          {
+            "name": "Spiritcaller Snail",
+            "chest_unopened_img": "images/icons/icon_cave.png",
+            "chest_opened_img": "images/icons/icon_cave_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+    ]
+  },
+  {
+    "name": "Flame Peak",
+    "access_rules": [
+      "$mountaintops"
+    ],
+    "children": [
+      {
+        "name": "Forge of the Giants",
+        "map_locations": [
+          {
+            "map": "mountaintops_map",
+            "x": 763,
+            "y": 1169
+          }
+        ],
+        "sections": [
+          {
+            "name": "Fire Giant",
+            "chest_unopened_img": "images/icons/bosses/icon_firegiant.png",
+            "chest_opened_img": "images/icons/bosses/icon_firegiant_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Church of Repose",
+        "access_rules": [
+          "flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "mountaintops_map",
+            "x": 450,
+            "y": 1086
+          }
+        ],
+        "sections": [
+          {
+            "name": "Under the statue",
+            "chest_unopened_img": "images/icons/icon_church.png",
+            "chest_opened_img": "images/icons/icon_church_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Foot of the Forge",
+        "access_rules": [
+          "flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "mountaintops_map",
+            "x": 753,
+            "y": 939
+          }
+        ],
+        "sections": [
+          {
+            "name": "Phantom Tree",
+            "chest_unopened_img": "images/icons/icon_flask.png",
+            "chest_opened_img": "images/icons/icon_flask_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Giant-Conquering Hero's Grave",
+        "access_rules": [
+          "$mountaintops, minidungeons_true, minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "mountaintops_map",
+            "x": 206,
+            "y": 939
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ancient Hero of Zamor",
+            "chest_unopened_img": "images/icons/icon_herograve.png",
+            "chest_opened_img": "images/icons/icon_herograve_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+    ]
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Deeproot Depths",
+    "access_rules": [
+      "$deeproot"
+    ],
+    "children": [
+      {
+        "name": "Hollowed tree",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "deeproot_map",
+            "x": 71,
+            "y": 243
+          }
+        ],
+        "sections": [
+          {
+            "name": "Crucible Knight Siluria",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Prince of Death's Throne",
+        "access_rules": [
+          "minor_bosses_true",
+          "require_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "deeproot_map",
+            "x": 488,
+            "y": 144
+          }
+        ],
+        "sections": [
+          {
+            "name": "Fia's Champions",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+    ]
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "name": "Divine Tower of East Altus",
+    "access_rules": [
+      "$forbidden"
+    ],
+    "children": [
+      {
+        "name": "Road to Forbidden Lands",
+        "access_rules": [
+          "talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "forbidden_map",
+            "x": 80,
+            "y": 353
+          }
+        ],
+        "sections": [
+          {
+            "name": "Corpse on top of stairs",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Divine Tower of East Altus",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "forbidden_map",
+            "x": 308,
+            "y": 404
+          }
+        ],
+        "sections": [
+          {
+            "name": "Fell Twins",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+    ]
+  },
+  {
+    "name": "Forbidden Lands",
+    "access_rules": [
+      "$forbidden"
+    ],
+    "children": [
+      {
+        "name": "Near Grand Lift of Rold",
+        "access_rules": [
+          "flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "forbidden_map",
+            "x": 642,
+            "y": 182
+          }
+        ],
+        "sections": [
+          {
+            "name": "Phantom Tree",
+            "chest_unopened_img": "images/icons/icon_flask.png",
+            "chest_opened_img": "images/icons/icon_flask_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Grand Lift of Rold stairs",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "forbidden_map",
+            "x": 687,
+            "y": 70
+          }
+        ],
+        "sections": [
+          {
+            "name": "Black Blade Kindred",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Forbidden Lands (night)",
+        "access_rules": [
+          "minor_bosses_true, night_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "forbidden_map",
+            "x": 444,
+            "y": 264
+          }
+        ],
+        "sections": [
+          {
+            "name": "Night's Cavalry",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+    ]
+  }
+]

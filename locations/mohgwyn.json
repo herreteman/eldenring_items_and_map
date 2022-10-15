@@ -1,0 +1,91 @@
+[
+  {
+    "name": "Mohgwyn Palace",
+    "access_rules": [
+      "$mohgwyn"
+    ],
+    "children": [
+      {
+        "name": "Cocoon of the Empyrean",
+        "map_locations": [
+          {
+            "map": "mohgwyn_map",
+            "x": 118,
+            "y": 302
+          }
+        ],
+        "sections": [
+          {
+            "name": "Mohg, Lord of Blood",
+            "chest_unopened_img": "images/icons/bosses/icon_mohg.png",
+            "chest_opened_img": "images/icons/bosses/icon_mohg_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Mohgwyn Lake of Blood",
+        "access_rules": [
+          "flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "mohgwyn_map",
+            "x": 343,
+            "y": 356
+          }
+        ],
+        "sections": [
+          {
+            "name": "Phantom Tree",
+            "chest_unopened_img": "images/icons/icon_flask.png",
+            "chest_opened_img": "images/icons/icon_flask_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Mohgwyn Dynasty Mausoleum",
+        "access_rules": [
+          "merchants_true"
+        ],
+        "map_locations": [
+          {
+            "map": "mohgwyn_map",
+            "x": 148,
+            "y": 380
+          }
+        ],
+        "sections": [
+          {
+            "name": "Imprisoned Merchant",
+            "chest_unopened_img": "images/icons/icon_shop.png",
+            "chest_opened_img": "images/icons/icon_shop_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Mohgwyn Lake of Blood",
+        "access_rules": [
+          "talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "mohgwyn_map",
+            "x": 255,
+            "y": 386
+          }
+        ],
+        "sections": [
+          {
+            "name": "Cliffside graves",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+    ]
+  }
+]

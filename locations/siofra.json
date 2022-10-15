@@ -1,0 +1,283 @@
+[
+  {
+    "name": "Siofra River",
+    "children": [
+      {
+        "name": "Hallowhorn Grounds",
+        "map_locations": [
+          {
+            "map": "siofra_map",
+            "x": 475,
+            "y": 725
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ancestor Spirit",
+            "chest_unopened_img": "images/icons/bosses/icon_ancestor.png",
+            "chest_opened_img": "images/icons/bosses/icon_ancestor_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Worshipper's Woods bridge",
+        "access_rules": [
+          "flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "siofra_map",
+            "x": 568,
+            "y": 229
+          }
+        ],
+        "sections": [
+          {
+            "name": "Phantom Tree",
+            "chest_unopened_img": "images/icons/icon_flask.png",
+            "chest_opened_img": "images/icons/icon_flask_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Siofra River Bank ruins",
+        "access_rules": [
+          "merchants_true"
+        ],
+        "map_locations": [
+          {
+            "map": "siofra_map",
+            "x": 478,
+            "y": 430
+          }
+        ],
+        "sections": [
+          {
+            "name": "Abandoned Merchant",
+            "chest_unopened_img": "images/icons/icon_shop.png",
+            "chest_opened_img": "images/icons/icon_shop_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Siofra waterfalls",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "siofra_map",
+            "x": 447,
+            "y": 268
+          }
+        ],
+        "sections": [
+          {
+            "name": "Dragonkin Soldier",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Deep Siofra Well",
+        "access_rules": [
+          "talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "siofra_map",
+            "x": 722,
+            "y": 142
+          }
+        ],
+        "sections": [
+          {
+            "name": "Stairs corpse",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Siofra waterfalls",
+        "access_rules": [
+          "talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "siofra_map",
+            "x": 479,
+            "y": 268
+          }
+        ],
+        "sections": [
+          {
+            "name": "Waterfall corpse",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+    ]
+  },
+  {
+    "name": "Nokron, Eternal City",
+    "access_rules": [
+      "$nokron"
+    ],
+    "children": [
+      {
+        "name": "Upper Nokron",
+        "map_locations": [
+          {
+            "map": "siofra_map",
+            "x": 279,
+            "y": 726
+          }
+        ],
+        "sections": [
+          {
+            "name": "Mimic Tear",
+            "chest_unopened_img": "images/icons/bosses/icon_mimic.png",
+            "chest_opened_img": "images/icons/bosses/icon_mimic_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Upper Hallowhorn Grounds",
+        "access_rules": [
+          "$aqueduct, talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "siofra_map",
+            "x": 402,
+            "y": 373
+          }
+        ],
+        "sections": [
+          {
+            "name": "Corpse on stone beams",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          },
+          {
+            "name": "Regal Ancestor Spirit",
+            "chest_unopened_img": "images/icons/bosses/icon_regalancestor.png",
+            "chest_opened_img": "images/icons/bosses/icon_regalancestor_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Upper Hallowhorn Grounds",
+        "access_rules": [
+          "$aqueduct, talismans_false"
+        ],
+        "map_locations": [
+          {
+            "map": "siofra_map",
+            "x": 402,
+            "y": 373
+          }
+        ],
+        "sections": [
+          {
+            "name": "Regal Ancestor Spirit",
+            "chest_unopened_img": "images/icons/bosses/icon_regalancestor.png",
+            "chest_opened_img": "images/icons/bosses/icon_regalancestor_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Siofra Aqueduct",
+        "access_rules": [
+          "$aqueduct"
+        ],
+        "map_locations": [
+          {
+            "map": "siofra_map",
+            "x": 414,
+            "y": 119
+          }
+        ],
+        "sections": [
+          {
+            "name": "Valiant Gargoyles",
+            "chest_unopened_img": "images/icons/bosses/icon_gargoyles.png",
+            "chest_opened_img": "images/icons/bosses/icon_gargoyles_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Nokron bridge",
+        "access_rules": [
+          "$aqueduct, talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "siofra_map",
+            "x": 446,
+            "y": 398
+          }
+        ],
+        "sections": [
+          {
+            "name": "Room dropping to waterfalls",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Siofra River via Belfries",
+    "access_rules": [
+      "imbued_key:3, talismans_true",
+      "[imbued_key:3], imbued_key:1, talismans_true"
+    ],
+    "children": [
+      {
+        "name": "Siofra River via Belfries",
+        "map_locations": [
+          {
+            "map": "siofra_map",
+            "x": 705,
+            "y": 722
+          },
+          {
+            "map": "belfry_nokron_map",
+            "x": 60,
+            "y": 57
+          },
+          {
+            "map": "liurnia_map",
+            "x": 171,
+            "y": 902
+          }
+        ],
+        "sections": [
+          {
+            "name": "Overlook corpse",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+    ]
+  }
+]

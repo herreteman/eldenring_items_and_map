@@ -1,0 +1,180 @@
+[
+  {
+    "name": "Ainsel River",
+    "children": [
+      {
+        "name": "Ainsel River end",
+        "access_rules": [
+          "$nokstella"
+        ],
+        "map_locations": [
+          {
+            "map": "ainsel_map_astel",
+            "x": 90,
+            "y": 178
+          }
+        ],
+        "sections": [
+          {
+            "name": "Astel, Naturalborn of the Void",
+            "chest_unopened_img": "images/icons/bosses/icon_astel.png",
+            "chest_opened_img": "images/icons/bosses/icon_astel_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Lower Nokstella",
+        "map_locations": [
+          {
+            "map": "ainsel_map",
+            "x": 647,
+            "y": 427
+          }
+        ],
+        "sections": [
+          {
+            "name": "Dragonkin Soldier of Nokstella",
+            "chest_unopened_img": "images/icons/bosses/icon_dragonkin.png",
+            "chest_opened_img": "images/icons/bosses/icon_dragonkin_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Nokstella, Eternal City",
+        "access_rules": [
+          "$nokstella, flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "ainsel_map",
+            "x": 585,
+            "y": 332
+          }
+        ],
+        "sections": [
+          {
+            "name": "Phantom Tree",
+            "chest_unopened_img": "images/icons/icon_flask.png",
+            "chest_opened_img": "images/icons/icon_flask_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Uhl Palace Ruins",
+        "access_rules": [
+          "merchants_true"
+        ],
+        "map_locations": [
+          {
+            "map": "ainsel_map",
+            "x": 753,
+            "y": 551
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hermit Merchant",
+            "chest_unopened_img": "images/icons/icon_shop.png",
+            "chest_opened_img": "images/icons/icon_shop_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ainsel River Downstream",
+        "access_rules": [
+          "talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "ainsel_map",
+            "x": 710,
+            "y": 629
+          }
+        ],
+        "sections": [
+          {
+            "name": "Corpse guarded by ants",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Nokstella, Eternal City",
+        "access_rules": [
+          "$nokstella, talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "ainsel_map",
+            "x": 499,
+            "y": 301
+          }
+        ],
+        "sections": [
+          {
+            "name": "Throne lidded chest",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+    ]
+  },
+  {
+    "name": "Lake of Rot",
+    "access_rules": [
+      "$nokstella"
+    ],
+    "children": [
+      {
+        "name": "Center Lake of Rot",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "ainsel_map",
+            "x": 626,
+            "y": 752
+          }
+        ],
+        "sections": [
+          {
+            "name": "Dragonkin Soldier",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Lake of Rot",
+        "access_rules": [
+          "talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "ainsel_map",
+            "x": 600,
+            "y": 686
+          }
+        ],
+        "sections": [
+          {
+            "name": "Lost Ancestral Follower",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+    ]
+  }
+]

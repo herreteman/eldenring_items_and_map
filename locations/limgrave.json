@@ -1,0 +1,588 @@
+[
+  {
+    "name": "Roundtable Hold",
+    "children": [
+      {
+        "name": "Roundtable Hold",
+        "access_rules": [
+          "merchants_true"
+        ],
+        "map_locations": [
+          {
+            "map": "limgrave_map",
+            "x": 16,
+            "y": 991
+          }
+        ],
+        "sections": [
+          {
+            "name": "Twin Maiden Husks",
+            "chest_unopened_img": "images/icons/icon_shop.png",
+            "chest_opened_img": "images/icons/icon_shop_checked.png",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Limgrave",
+    "children": [
+      {
+        "name": "Fringefolk Hero's Grave (2 keys)",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true, talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "limgrave_map",
+            "x": 295,
+            "y": 756
+          }
+        ],
+        "sections": [
+          {
+            "name": "Corpse in the guarded altar",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          },
+          {
+            "name": "Ulcerated Tree Spirit",
+            "chest_unopened_img": "images/icons/icon_herograve.png",
+            "chest_opened_img": "images/icons/icon_herograve_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Fringefolk Hero's Grave (2 keys)",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true, talismans_false"
+        ],
+        "map_locations": [
+          {
+            "map": "limgrave_map",
+            "x": 295,
+            "y": 756
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ulcerated Tree Spirit",
+            "chest_unopened_img": "images/icons/icon_herograve.png",
+            "chest_opened_img": "images/icons/icon_herograve_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Fringefolk Hero's Grave (2 keys)",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_false, talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "limgrave_map",
+            "x": 295,
+            "y": 756
+          }
+        ],
+        "sections": [
+          {
+            "name": "Corpse in the guarded altar",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Fort Haight",
+        "map_locations": [
+          {
+            "map": "limgrave_map",
+            "x": 1067,
+            "y": 702
+          }
+        ],
+        "sections": [
+          {
+            "name": "Tower top chest",
+            "chest_unopened_img": "images/icons/icon_keyitem.png",
+            "chest_opened_img": "images/icons/icon_keyitem_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Third Church of Marika",
+        "access_rules": [
+          "flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "limgrave_map",
+            "x": 1006,
+            "y": 229
+          }
+        ],
+        "sections": [
+          {
+            "name": "Under the statue",
+            "chest_unopened_img": "images/icons/icon_church.png",
+            "chest_opened_img": "images/icons/icon_church_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Near Fort Haight",
+        "access_rules": [
+          "flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "limgrave_map",
+            "x": 1035,
+            "y": 718
+          }
+        ],
+        "sections": [
+          {
+            "name": "Phantom Tree",
+            "chest_unopened_img": "images/icons/icon_flask.png",
+            "chest_opened_img": "images/icons/icon_flask_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Church of Elleh",
+        "access_rules": [
+          "merchants_true"
+        ],
+        "map_locations": [
+          {
+            "map": "limgrave_map",
+            "x": 260,
+            "y": 621
+          }
+        ],
+        "sections": [
+          {
+            "name": "Merchant Kalé",
+            "chest_unopened_img": "images/icons/icon_shop.png",
+            "chest_opened_img": "images/icons/icon_shop_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Saintsbridge",
+        "access_rules": [
+          "merchants_true"
+        ],
+        "map_locations": [
+          {
+            "map": "limgrave_map",
+            "x": 617,
+            "y": 108
+          }
+        ],
+        "sections": [
+          {
+            "name": "Nomadic Merchant",
+            "chest_unopened_img": "images/icons/icon_shop.png",
+            "chest_opened_img": "images/icons/icon_shop_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Limgrave Coast",
+        "access_rules": [
+          "merchants_true"
+        ],
+        "map_locations": [
+          {
+            "map": "limgrave_map",
+            "x": 178,
+            "y": 758
+          }
+        ],
+        "sections": [
+          {
+            "name": "Nomadic Merchant",
+            "chest_unopened_img": "images/icons/icon_shop.png",
+            "chest_opened_img": "images/icons/icon_shop_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Mistwood",
+        "access_rules": [
+          "merchants_true"
+        ],
+        "map_locations": [
+          {
+            "map": "limgrave_map",
+            "x": 946,
+            "y": 595
+          }
+        ],
+        "sections": [
+          {
+            "name": "Nomadic Merchant",
+            "chest_unopened_img": "images/icons/icon_shop.png",
+            "chest_opened_img": "images/icons/icon_shop_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Murkwater Cave",
+        "access_rules": [
+          "minidungeons_true, merchants_true"
+        ],
+        "map_locations": [
+          {
+            "map": "limgrave_map",
+            "x": 548,
+            "y": 437
+          }
+        ],
+        "sections": [
+          {
+            "name": "Sold by Patches",
+            "chest_unopened_img": "images/icons/icon_shop.png",
+            "chest_opened_img": "images/icons/icon_shop_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Forlorn Hound Evergaol",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "limgrave_map",
+            "x": 675,
+            "y": 970
+          }
+        ],
+        "sections": [
+          {
+            "name": "Bloodhound Knight Darriwil",
+            "chest_unopened_img": "images/icons/icon_evergaol.png",
+            "chest_opened_img": "images/icons/icon_evergaol_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Dragon-Burnt Ruins",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "limgrave_map",
+            "x": 427,
+            "y": 621
+          }
+        ],
+        "sections": [
+          {
+            "name": "Flying Dragon Agheel",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Summonwater Village",
+        "access_rules": [
+          "minor_bosses_true, talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "limgrave_map",
+            "x": 842,
+            "y": 78
+          }
+        ],
+        "sections": [
+          {
+            "name": "Tibia Mariner",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          },
+          {
+            "name": "Downstairs chest (1 key)",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Summonwater Village",
+        "access_rules": [
+          "minor_bosses_true, talismans_false"
+        ],
+        "map_locations": [
+          {
+            "map": "limgrave_map",
+            "x": 842,
+            "y": 78
+          }
+        ],
+        "sections": [
+          {
+            "name": "Tibia Mariner",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Summonwater Village",
+        "access_rules": [
+          "minor_bosses_false, talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "limgrave_map",
+            "x": 842,
+            "y": 78
+          }
+        ],
+        "sections": [
+          {
+            "name": "Downstairs chest (1 key)",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "The First Step",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "limgrave_map",
+            "x": 284,
+            "y": 670
+          }
+        ],
+        "sections": [
+          {
+            "name": "Tree Sentinel",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Coastal Cave",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "limgrave_map",
+            "x": 130,
+            "y": 715
+          }
+        ],
+        "sections": [
+          {
+            "name": "Demi-Human Chiefs",
+            "chest_unopened_img": "images/icons/icon_cave.png",
+            "chest_opened_img": "images/icons/icon_cave_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Groveside Cave",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "limgrave_map",
+            "x": 245,
+            "y": 493
+          }
+        ],
+        "sections": [
+          {
+            "name": "Beastman of Farum Azula",
+            "chest_unopened_img": "images/icons/icon_cave.png",
+            "chest_opened_img": "images/icons/icon_cave_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Highroad Cave",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "limgrave_map",
+            "x": 536,
+            "y": 16
+          }
+        ],
+        "sections": [
+          {
+            "name": "Guardian Golem",
+            "chest_unopened_img": "images/icons/icon_cave.png",
+            "chest_opened_img": "images/icons/icon_cave_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Murkwater Catacombs",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "limgrave_map",
+            "x": 559,
+            "y": 235
+          }
+        ],
+        "sections": [
+          {
+            "name": "Grave Warden Duelist",
+            "chest_unopened_img": "images/icons/icon_catacombs.png",
+            "chest_opened_img": "images/icons/icon_catacombs_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Stormfoot Catacombs",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "limgrave_map",
+            "x": 126,
+            "y": 492
+          }
+        ],
+        "sections": [
+          {
+            "name": "Erdtree Burial Watchdog",
+            "chest_unopened_img": "images/icons/icon_catacombs.png",
+            "chest_opened_img": "images/icons/icon_catacombs_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Limgrave Tunnels",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "limgrave_map",
+            "x": 395,
+            "y": 511
+          }
+        ],
+        "sections": [
+          {
+            "name": "Stonedigger Troll",
+            "chest_unopened_img": "images/icons/icon_tunnel.png",
+            "chest_opened_img": "images/icons/icon_tunnel_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Agheel Lake North (night)",
+        "access_rules": [
+          "minor_bosses_true, night_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "limgrave_map",
+            "x": 526,
+            "y": 556
+          }
+        ],
+        "sections": [
+          {
+            "name": "Night's Cavalry",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Mistwood Ruins",
+        "access_rules": [
+          "talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "limgrave_map",
+            "x": 840,
+            "y": 570
+          }
+        ],
+        "sections": [
+          {
+            "name": "Downstairs chest",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Cave of Knowledge",
+        "access_rules": [
+          "talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "limgrave_map",
+            "x": 400,
+            "y": 795
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ruined beach back entrance",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+    ]
+  }
+]

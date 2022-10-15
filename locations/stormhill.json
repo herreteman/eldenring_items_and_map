@@ -1,0 +1,172 @@
+[
+  {
+    "name": "Stormhill",
+    "children": [
+      {
+        "name": "Stormveil Gate",
+        "map_locations": [
+          {
+            "map": "stormhill_map",
+            "x": 16,
+            "y": 434
+          }
+        ],
+        "sections": [
+          {
+            "name": "Margit, the Fell Omen",
+            "chest_unopened_img": "images/icons/bosses/icon_margit.png",
+            "chest_opened_img": "images/icons/bosses/icon_margit_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Past Stormgate",
+        "access_rules": [
+          "flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "stormhill_map",
+            "x": 179,
+            "y": 461
+          }
+        ],
+        "sections": [
+          {
+            "name": "Phantom Tree",
+            "chest_unopened_img": "images/icons/icon_flask.png",
+            "chest_opened_img": "images/icons/icon_flask_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Stormhill Evergaol",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "stormhill_map",
+            "x": 282,
+            "y": 562
+          }
+        ],
+        "sections": [
+          {
+            "name": "Crucible Knight",
+            "chest_unopened_img": "images/icons/icon_evergaol.png",
+            "chest_opened_img": "images/icons/icon_evergaol_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Deathtouched Catacombs",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "stormhill_map",
+            "x": 467,
+            "y": 177
+          }
+        ],
+        "sections": [
+          {
+            "name": "Black Knife Assassin",
+            "chest_unopened_img": "images/icons/icon_catacombs.png",
+            "chest_opened_img": "images/icons/icon_catacombs_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Stormhill (night)",
+        "access_rules": [
+          "minor_bosses_true, night_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "stormhill_map",
+            "x": 447,
+            "y": 368
+          }
+        ],
+        "sections": [
+          {
+            "name": "Deathbird",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Warmaster's Shack (night)",
+        "access_rules": [
+          "minor_bosses_true, night_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "stormhill_map",
+            "x": 342,
+            "y": 323
+          }
+        ],
+        "sections": [
+          {
+            "name": "Bell Bearing Hunter",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Stormgate",
+        "access_rules": [
+          "talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "stormhill_map",
+            "x": 303,
+            "y": 507
+          }
+        ],
+        "sections": [
+          {
+            "name": "Upper floor chest",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "North-east Stormhill",
+        "access_rules": [
+          "talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "stormhill_map",
+            "x": 545,
+            "y": 22
+          }
+        ],
+        "sections": [
+          {
+            "name": "Corpse in rubble",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+    ]
+  }
+]

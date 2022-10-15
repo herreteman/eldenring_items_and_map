@@ -1,0 +1,16 @@
+﻿{
+  "name": "Elden Ring Randomizer",
+  "game_name": "Elden Ring",
+  "platform": "Multi",
+  "package_version": "1.0.0.0",
+  "package_uid": "eldenring_items_and_map",
+  "author": "Herreteman",
+  "variants": {
+    "standard": {
+      "display_name": "Items + Map (Important locations)"
+    },
+    "items_only": {
+      "display_name": "Items Only"
+    }
+  }
+}

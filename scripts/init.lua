@@ -1,0 +1,35 @@
+-- Items
+Tracker:AddItems("items/key_items.json")
+Tracker:AddItems("items/setting_items.json")
+
+ScriptHost:LoadScript("scripts/rules.lua")
+
+-- Maps and locations
+Tracker:AddMaps("maps/maps.json")
+Tracker:AddLocations("locations/academy.json")
+Tracker:AddLocations("locations/ainsel.json")
+Tracker:AddLocations("locations/altus.json")
+Tracker:AddLocations("locations/azula.json")
+Tracker:AddLocations("locations/bellum.json")
+Tracker:AddLocations("locations/caelid.json")
+Tracker:AddLocations("locations/deeproot.json")
+Tracker:AddLocations("locations/dragonbarrow.json")
+Tracker:AddLocations("locations/forbidden.json")
+Tracker:AddLocations("locations/gelmir.json")
+Tracker:AddLocations("locations/haligtree.json")
+Tracker:AddLocations("locations/leyndell.json")
+Tracker:AddLocations("locations/limgrave.json")
+Tracker:AddLocations("locations/liurnia.json")
+Tracker:AddLocations("locations/mohgwyn.json")
+Tracker:AddLocations("locations/mountaintops.json")
+Tracker:AddLocations("locations/siofra.json")
+Tracker:AddLocations("locations/snowfield.json")
+Tracker:AddLocations("locations/stormhill.json")
+Tracker:AddLocations("locations/stormveil.json")
+Tracker:AddLocations("locations/weeping.json")
+
+Tracker:AddLayouts("layouts/items.json")
+Tracker:AddLayouts("layouts/options.json")
+Tracker:AddLayouts("layouts/tracker.json")
+Tracker:AddLayouts("layouts/broadcast.json")
+

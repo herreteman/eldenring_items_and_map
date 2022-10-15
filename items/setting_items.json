@@ -1,0 +1,248 @@
+[
+    // Tracker settings header
+    {
+        "name": "Tracker Settings",
+        "type": "toggle",
+        "img": "images/settings/header_tracker_settings.png",
+        "codes": "tracker_settings_header",
+        "allow_disabled": false,
+        "disabled_img_mods": "brightness|1.0"
+    },
+    
+    // Tracker setting: show items behind bosses
+    {
+        "name": "Hide locations behind bosses",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/settings/setting_bosses_on.png",
+                "codes": "require_bosses, require_bosses_true",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/setting_bosses_off.png",
+                "codes": "require_bosses_false",
+                "inherit_codes": false
+            }
+        ]
+    },
+
+    // Tracker setting: entered Stormveil through Gostoc
+    {
+        "name": "Opened Stormveil Gate through Gostoc",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/settings/setting_gostoc_on.png",
+                "codes": "gostoc_door, gostoc_true",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/setting_gostoc_off.png",
+                "codes": "gostoc_false",
+                "inherit_codes": false
+            }
+        ]
+    },
+
+    // Randomizer settings header
+    {
+        "name": "Randomizer Settings",
+        "type": "toggle",
+        "img": "images/settings/header_rando_settings.png",
+        "codes": "rando_settings_header",
+        "allow_disabled": false,
+        "disabled_img_mods": "brightness|1.0"
+    },
+
+    // Rando settings header
+    {
+        "name": "rando_settings_header",
+        "type": "static",
+        "img": "images/options/setting_y_false.png"
+    },
+
+    // Rando setting: require all 7 Great Runes to acces the final boss
+    {
+        "name": "7 runes required to enter the Erdtree",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/settings/setting_7runes_on.png",
+                "codes": "required_runes, required_runes_7, required_runes_true",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/setting_7runes_off.png",
+                "codes": "required_runes_2, required_runes_false",
+                "inherit_codes": false
+            }
+        ]
+    },
+
+    // Locations setting: vanilla key items
+    {
+        "name": "Key item locations",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "",
+                "codes": "locations_key_items_true, key_items_true",
+                "inherit_codes": false
+            },
+            {
+                "img": "",
+                "codes": "locations_key_items_false, key_items_false",
+                "inherit_codes": false
+            }
+        ]
+    },
+
+    // Locations setting: major bosses
+    {
+        "name": "Major bosses",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "",
+                "codes": "locations_major_bosses_true, major_bosses_true",
+                "inherit_codes": false
+            },
+            {
+                "img": "",
+                "codes": "locations_major_bosses_false, major_bosses_false",
+                "inherit_codes": false
+            }
+        ]
+    },
+
+    // Locations setting: flask upgrades
+    {
+        "name": "Flask upgrades",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/settings/setting_flask_on.png",
+                "codes": "flask_upgrades, locations_flask_upgrades_true, flask_upgrades_true",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/setting_flask_off.png",
+                "codes": "locations_flask_upgrades_false, flask_upgrades_false",
+                "inherit_codes": false
+            }
+        ]
+    },
+
+    // Locations setting: merchant shops
+    {
+        "name": "Merchant shops",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/settings/setting_shops_on.png",
+                "codes": "locations_merchant, locations_merchants_true, merchants_true",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/setting_shops_off.png",
+                "codes": "locations_merchants_false, merchants_false",
+                "inherit_codes": false
+            }
+        ]
+    },
+
+    // Locations setting: minor bosses
+    {
+        "name": "Minor bosses",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/settings/setting_minorbosses_on.png",
+                "codes": "locations_minor_bosses, locations_minor_bosses_true, minor_bosses_true",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/setting_minorbosses_off.png",
+                "codes": "locations_minor_bosses_false, minor_bosses_false",
+                "inherit_codes": false
+            }
+        ]
+    },
+
+    // Locations setting: night bosses
+    {
+        "name": "Night bosses",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/settings/setting_nightbosses_on.png",
+                "codes": "locations_night_bosses, locations_night_bosses_true, night_bosses_true",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/setting_nightbosses_off.png",
+                "codes": "locations_night_bosses_false, night_bosses_false",
+                "inherit_codes": false
+            }
+        ]
+    },
+
+    // Locations setting: talismans
+    {
+        "name": "Talisman locations",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/settings/setting_talismans_on.png",
+                "codes": "locations_talismans, locations_talismans_true, talismans_true",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/setting_talismans_off.png",
+                "codes": "locations_talismans_false, talismans_false",
+                "inherit_codes": false
+            }
+        ]
+    },
+
+    // Locations setting: exclude mini-dungeons
+    {
+        "name": "Exclude minidungeons",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/settings/setting_minidungeons_off.png",
+                "codes": "locations_minidungeons, locations_minidungeons_true, minidungeons_true",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/setting_minidungeons_on.png",
+                "codes": "locations_minidungeons_false, minidungeons_false",
+                "inherit_codes": false
+            }
+        ]
+    },
+]

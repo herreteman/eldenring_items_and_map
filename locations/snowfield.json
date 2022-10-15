@@ -1,0 +1,289 @@
+[
+  {
+    "name": "Consecrated Snowfield",
+    "access_rules": [
+      "$snowfield"
+    ],
+    "children": [
+      {
+        "name": "Ordina, Lithurgical Town",
+        "access_rules": [
+          "flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "snowfield_map",
+            "x": 297,
+            "y": 294
+          }
+        ],
+        "sections": [
+          {
+            "name": "Phantom Tree",
+            "chest_unopened_img": "images/icons/icon_flask.png",
+            "chest_opened_img": "images/icons/icon_flask_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Consecrated Snowfield",
+        "access_rules": [
+          "flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "snowfield_map",
+            "x": 555,
+            "y": 718
+          }
+        ],
+        "sections": [
+          {
+            "name": "Phantom Tree",
+            "chest_unopened_img": "images/icons/icon_flask.png",
+            "chest_opened_img": "images/icons/icon_flask_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Frozen waterfall",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "snowfield_map",
+            "x": 751,
+            "y": 449
+          }
+        ],
+        "sections": [
+          {
+            "name": "Great Wyrm Theodorix",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Consecrated Snowfield Minor Erdtree",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "snowfield_map",
+            "x": 684,
+            "y": 384
+          }
+        ],
+        "sections": [
+          {
+            "name": "Putrid Avatar",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Cave of the Forlorn (2 keys)",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "snowfield_map",
+            "x": 720,
+            "y": 413
+          }
+        ],
+        "sections": [
+          {
+            "name": "Misbegotten Crusader",
+            "chest_unopened_img": "images/icons/icon_cave.png",
+            "chest_opened_img": "images/icons/icon_cave_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Yelough Anyx Tunnel",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "snowfield_map",
+            "x": 202,
+            "y": 694
+          }
+        ],
+        "sections": [
+          {
+            "name": "Astel, Stars of Darkness",
+            "chest_unopened_img": "images/icons/icon_tunnel.png",
+            "chest_opened_img": "images/icons/icon_tunnel_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Consecrated Snowfield Catacombs",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "snowfield_map",
+            "x": 708,
+            "y": 713
+          }
+        ],
+        "sections": [
+          {
+            "name": "Putrid Grave Warden Duelist",
+            "chest_unopened_img": "images/icons/icon_catacombs.png",
+            "chest_opened_img": "images/icons/icon_catacombs_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hidden Path to the Haligtree",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true, talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "snowfield_map",
+            "x": 483,
+            "y": 938
+          }
+        ],
+        "sections": [
+          {
+            "name": "Looping back to the entrance",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          },
+          {
+            "name": "Stray Mimic Tear",
+            "chest_unopened_img": "images/icons/icon_catacombs.png",
+            "chest_opened_img": "images/icons/icon_catacombs_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hidden Path to the Haligtree",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true, talismans_false"
+        ],
+        "map_locations": [
+          {
+            "map": "snowfield_map",
+            "x": 483,
+            "y": 938
+          }
+        ],
+        "sections": [
+          {
+            "name": "Stray Mimic Tear",
+            "chest_unopened_img": "images/icons/icon_catacombs.png",
+            "chest_opened_img": "images/icons/icon_catacombs_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hidden Path to the Haligtree",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_false, talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "snowfield_map",
+            "x": 483,
+            "y": 938
+          }
+        ],
+        "sections": [
+          {
+            "name": "Looping back to the entrance",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Frozen river north edge (night)",
+        "access_rules": [
+          "minor_bosses_true, night_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "snowfield_map",
+            "x": 294,
+            "y": 158
+          }
+        ],
+        "sections": [
+          {
+            "name": "Death Rite Bird",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Center Snowfield caravan (night)",
+        "access_rules": [
+          "minor_bosses_true, night_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "snowfield_map",
+            "x": 403,
+            "y": 661
+          }
+        ],
+        "sections": [
+          {
+            "name": "Night's Cavalry Duo",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Near Yelough Anix Ruins",
+        "access_rules": [
+          "talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "snowfield_map",
+            "x": 321,
+            "y": 710
+          }
+        ],
+        "sections": [
+          {
+            "name": "Guarded corpse",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+    ]
+  }
+]

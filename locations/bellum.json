@@ -1,0 +1,156 @@
+[
+  {
+    "name": "Bellum Highway",
+    "children": [
+      {
+        "name": "Church of Inhibition",
+        "access_rules": [
+          "flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "bellum_map",
+            "x": 393,
+            "y": 371
+          }
+        ],
+        "sections": [
+          {
+            "name": "Under the statue",
+            "chest_unopened_img": "images/icons/icon_church.png",
+            "chest_opened_img": "images/icons/icon_church_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Bellum Church",
+        "access_rules": [
+          "flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "bellum_map",
+            "x": 148,
+            "y": 403
+          }
+        ],
+        "sections": [
+          {
+            "name": "Under the statue",
+            "chest_unopened_img": "images/icons/icon_church.png",
+            "chest_opened_img": "images/icons/icon_church_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Bellum Church cliffside",
+        "access_rules": [
+          "merchants_true"
+        ],
+        "map_locations": [
+          {
+            "map": "bellum_map",
+            "x": 154,
+            "y": 341
+          }
+        ],
+        "sections": [
+          {
+            "name": "Nomadic Merchant",
+            "chest_unopened_img": "images/icons/icon_shop.png",
+            "chest_opened_img": "images/icons/icon_shop_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Bellum Highway Minor Erdtree",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "bellum_map",
+            "x": 530,
+            "y": 616
+          }
+        ],
+        "sections": [
+          {
+            "name": "Erdtree Avatar",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Bellum Highway (night)",
+        "access_rules": [
+          "minor_bosses_true, night_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "bellum_map",
+            "x": 166,
+            "y": 517
+          }
+        ],
+        "sections": [
+          {
+            "name": "Night's Cavalry",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Frenzied Flame Village",
+        "access_rules": [
+          "talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "bellum_map",
+            "x": 476,
+            "y": 519
+          }
+        ],
+        "sections": [
+          {
+            "name": "Popular house corpse",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+    ]
+  },
+  {
+    "name": "Ruin-Strewn Precipice (Region)",
+    "children": [
+      {
+        "name": "Ruin-Strewn Precipice",
+        "map_locations": [
+          {
+            "map": "bellum_map",
+            "x": 280,
+            "y": 42
+          }
+        ],
+        "sections": [
+          {
+            "name": "Magma Wyrm Makar",
+            "chest_unopened_img": "images/icons/bosses/icon_makar.png",
+            "chest_opened_img": "images/icons/bosses/icon_makar_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+    ]
+  }
+]

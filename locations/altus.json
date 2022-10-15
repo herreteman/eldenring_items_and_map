@@ -1,0 +1,961 @@
+[
+  {
+    "name": "Altus Plateau",
+    "access_rules": [
+      "$altus"
+    ],
+    "children": [
+      {
+        "name": "Shaded Castle",
+        "map_locations": [
+          {
+            "map": "altus_map",
+            "x": 621,
+            "y": 239
+          }
+        ],
+        "sections": [
+          {
+            "name": "Elemer of the Briar",
+            "chest_unopened_img": "images/icons/bosses/icon_elemer.png",
+            "chest_opened_img": "images/icons/bosses/icon_elemer_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Stormcaller Church",
+        "access_rules": [
+          "flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "altus_map",
+            "x": 875,
+            "y": 796
+          }
+        ],
+        "sections": [
+          {
+            "name": "Under the statue",
+            "chest_unopened_img": "images/icons/icon_church.png",
+            "chest_opened_img": "images/icons/icon_church_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Second Church of Marika",
+        "access_rules": [
+          "flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "altus_map",
+            "x": 683,
+            "y": 637
+          }
+        ],
+        "sections": [
+          {
+            "name": "Under the statue",
+            "chest_unopened_img": "images/icons/icon_church.png",
+            "chest_opened_img": "images/icons/icon_church_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Northwest road to the capital",
+        "access_rules": [
+          "flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "altus_map",
+            "x": 1234,
+            "y": 363
+          }
+        ],
+        "sections": [
+          {
+            "name": "Phantom Tree",
+            "chest_unopened_img": "images/icons/icon_flask.png",
+            "chest_opened_img": "images/icons/icon_flask_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Altus Highway Junction",
+        "access_rules": [
+          "flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "altus_map",
+            "x": 732,
+            "y": 792
+          }
+        ],
+        "sections": [
+          {
+            "name": "Phantom Tree",
+            "chest_unopened_img": "images/icons/icon_flask.png",
+            "chest_opened_img": "images/icons/icon_flask_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Erdtree-Gazing Hill",
+        "access_rules": [
+          "flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "altus_map",
+            "x": 471,
+            "y": 815
+          }
+        ],
+        "sections": [
+          {
+            "name": "Phantom Tree",
+            "chest_unopened_img": "images/icons/icon_flask.png",
+            "chest_opened_img": "images/icons/icon_flask_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Near Minor Erdtree",
+        "access_rules": [
+          "flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "altus_map",
+            "x": 959,
+            "y": 363
+          }
+        ],
+        "sections": [
+          {
+            "name": "Phantom Tree",
+            "chest_unopened_img": "images/icons/icon_flask.png",
+            "chest_opened_img": "images/icons/icon_flask_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Outer Wall Phantom Tree",
+        "access_rules": [
+          "flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "altus_map",
+            "x": 1220,
+            "y": 907
+          }
+        ],
+        "sections": [
+          {
+            "name": "Phantom Tree",
+            "chest_unopened_img": "images/icons/icon_flask.png",
+            "chest_opened_img": "images/icons/icon_flask_checked.png",
+            "item_count": 2
+          }
+        ]
+      },
+      {
+        "name": "Stairs to the capital",
+        "access_rules": [
+          "flask_upgrades_true"
+        ],
+        "map_locations": [
+          {
+            "map": "altus_map",
+            "x": 1361,
+            "y": 700
+          }
+        ],
+        "sections": [
+          {
+            "name": "Phantom Tree",
+            "chest_unopened_img": "images/icons/icon_flask.png",
+            "chest_opened_img": "images/icons/icon_flask_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Forest-Spanning Greatbridge south",
+        "access_rules": [
+          "merchants_true"
+        ],
+        "map_locations": [
+          {
+            "map": "altus_map",
+            "x": 948,
+            "y": 568
+          }
+        ],
+        "sections": [
+          {
+            "name": "Nomadic Merchant",
+            "chest_unopened_img": "images/icons/icon_shop.png",
+            "chest_opened_img": "images/icons/icon_shop_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Rampartside hill",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "altus_map",
+            "x": 1101,
+            "y": 716
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ancient Dragon Lansseax",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Altus Plateau crater",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "altus_map",
+            "x": 1093,
+            "y": 989
+          }
+        ],
+        "sections": [
+          {
+            "name": "Fallingstar Beast",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Golden Lineage Evergaol (1 key)",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "altus_map",
+            "x": 612,
+            "y": 1129
+          }
+        ],
+        "sections": [
+          {
+            "name": "Godefroy the Grafted",
+            "chest_unopened_img": "images/icons/icon_evergaol.png",
+            "chest_opened_img": "images/icons/icon_evergaol_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Windmill Village",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "altus_map",
+            "x": 1230,
+            "y": 106
+          }
+        ],
+        "sections": [
+          {
+            "name": "Godskin Apostle",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Sainted Hero's Grave entrance",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "altus_map",
+            "x": 920,
+            "y": 667
+          }
+        ],
+        "sections": [
+          {
+            "name": "Black Knife Assassin",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Wyndham Ruins",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "altus_map",
+            "x": 424,
+            "y": 700
+          }
+        ],
+        "sections": [
+          {
+            "name": "Tibia Mariner",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Leyndell Outer Wall",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "altus_map",
+            "x": 1129,
+            "y": 904
+          }
+        ],
+        "sections": [
+          {
+            "name": "Tree Sentinel Duo",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Altus Plateau Minor Erdtree",
+        "access_rules": [
+          "minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "altus_map",
+            "x": 1006,
+            "y": 463
+          }
+        ],
+        "sections": [
+          {
+            "name": "Wormface",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Perfumer's Grotto",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "altus_map",
+            "x": 1099,
+            "y": 855
+          }
+        ],
+        "sections": [
+          {
+            "name": "Omenkiller and Giant Miranda Flower",
+            "chest_unopened_img": "images/icons/icon_cave.png",
+            "chest_opened_img": "images/icons/icon_cave_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Sage's Cave",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "altus_map",
+            "x": 341,
+            "y": 716
+          }
+        ],
+        "sections": [
+          {
+            "name": "Black Knife Assassin",
+            "chest_unopened_img": "images/icons/icon_cave.png",
+            "chest_opened_img": "images/icons/icon_cave_checked.png",
+            "item_count": 1
+          },
+          {
+            "name": "Necromancer Garris",
+            "chest_unopened_img": "images/icons/icon_cave.png",
+            "chest_opened_img": "images/icons/icon_cave_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Sainted Hero's Grave",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true, talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "altus_map",
+            "x": 888,
+            "y": 667
+          }
+        ],
+        "sections": [
+          {
+            "name": "Entrance Imp Barrier (1 key)",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          },
+          {
+            "name": "Imp Barrier up the giant blade (1 key)",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          },
+          {
+            "name": "Ancient Hero of Zamor",
+            "chest_unopened_img": "images/icons/icon_herograve.png",
+            "chest_opened_img": "images/icons/icon_herograve_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Sainted Hero's Grave",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true, talismans_false"
+        ],
+        "map_locations": [
+          {
+            "map": "altus_map",
+            "x": 888,
+            "y": 667
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ancient Hero of Zamor",
+            "chest_unopened_img": "images/icons/icon_herograve.png",
+            "chest_opened_img": "images/icons/icon_herograve_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Sainted Hero's Grave",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_false, talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "altus_map",
+            "x": 888,
+            "y": 667
+          }
+        ],
+        "sections": [
+          {
+            "name": "Entrance Imp Barrier (1 key)",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          },
+          {
+            "name": "Imp Barrier up the giant blade (1 key)",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Unsightly Catacombs (2 keys)",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "altus_map",
+            "x": 34,
+            "y": 790
+          }
+        ],
+        "sections": [
+          {
+            "name": "Perfumer Tricia and Misbegotten Warrior",
+            "chest_unopened_img": "images/icons/icon_catacombs.png",
+            "chest_opened_img": "images/icons/icon_catacombs_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Altus Tunnel",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true, talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "altus_map",
+            "x": 1017,
+            "y": 649
+          }
+        ],
+        "sections": [
+          {
+            "name": "Open precipice highest level",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          },
+          {
+            "name": "Cystallians",
+            "chest_unopened_img": "images/icons/icon_tunnel.png",
+            "chest_opened_img": "images/icons/icon_tunnel_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Altus Tunnel",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true, talismans_false"
+        ],
+        "map_locations": [
+          {
+            "map": "altus_map",
+            "x": 1017,
+            "y": 649
+          }
+        ],
+        "sections": [
+          {
+            "name": "Cystallians",
+            "chest_unopened_img": "images/icons/icon_tunnel.png",
+            "chest_opened_img": "images/icons/icon_tunnel_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Altus Tunnel",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_false, talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "altus_map",
+            "x": 1017,
+            "y": 649
+          }
+        ],
+        "sections": [
+          {
+            "name": "Open precipice highest level",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Sealed Tunnel",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "altus_map",
+            "x": 1403,
+            "y": 1049
+          }
+        ],
+        "sections": [
+          {
+            "name": "Onyx Lord",
+            "chest_unopened_img": "images/icons/icon_tunnel.png",
+            "chest_opened_img": "images/icons/icon_tunnel_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Old Altus Tunnel (2 keys)",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true, talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "altus_map",
+            "x": 529,
+            "y": 568
+          }
+        ],
+        "sections": [
+          {
+            "name": "Dead end shack",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          },
+          {
+            "name": "Stonedigger Troll",
+            "chest_unopened_img": "images/icons/icon_tunnel.png",
+            "chest_opened_img": "images/icons/icon_tunnel_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Old Altus Tunnel (2 keys)",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true, talismans_false"
+        ],
+        "map_locations": [
+          {
+            "map": "altus_map",
+            "x": 529,
+            "y": 568
+          }
+        ],
+        "sections": [
+          {
+            "name": "Stonedigger Troll",
+            "chest_unopened_img": "images/icons/icon_tunnel.png",
+            "chest_opened_img": "images/icons/icon_tunnel_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Old Altus Tunnel (2 keys)",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_false, talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "altus_map",
+            "x": 529,
+            "y": 568
+          }
+        ],
+        "sections": [
+          {
+            "name": "Dead end shack",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Altus Highway Junction (night)",
+        "access_rules": [
+          "minor_bosses_true, night_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "altus_map",
+            "x": 644,
+            "y": 971
+          }
+        ],
+        "sections": [
+          {
+            "name": "Night's Cavalry",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Lux Ruins",
+        "access_rules": [
+          "talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "altus_map",
+            "x": 439,
+            "y": 874
+          }
+        ],
+        "sections": [
+          {
+            "name": "Demi-Human Queen Gilika chest",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Wyndham Ruins",
+        "access_rules": [
+          "talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "altus_map",
+            "x": 417,
+            "y": 620
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest down Imp Barrier (1 key)",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Perfumer Ruins",
+        "access_rules": [
+          "talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "altus_map",
+            "x": 34,
+            "y": 758
+          }
+        ],
+        "sections": [
+          {
+            "name": "Downstairs chest",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+    ]
+  },
+  {
+    "name": "Capital Outskirts",
+    "access_rules": [
+      "$altus"
+    ],
+    "children": [
+      {
+        "name": "Hermit Merchant's Shack",
+        "access_rules": [
+          "merchants_true"
+        ],
+        "map_locations": [
+          {
+            "map": "outskirts_map",
+            "x": 85,
+            "y": 92
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hermit Merchant",
+            "chest_unopened_img": "images/icons/icon_shop.png",
+            "chest_opened_img": "images/icons/icon_shop_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Capital Rampart entrance",
+        "access_rules": [
+          "minor_bosses_true",
+          "minor_bosses_false, require_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "outskirts_map",
+            "x": 503,
+            "y": 269
+          }
+        ],
+        "sections": [
+          {
+            "name": "Draconic Tree Sentinel",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Auriza Hero's Grace",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true, talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "outskirts_map",
+            "x": 533,
+            "y": 390
+          }
+        ],
+        "sections": [
+          {
+            "name": "Guarded by an omen, down the wooden beams",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          },
+          {
+            "name": "Crucible Knight Duo",
+            "chest_unopened_img": "images/icons/icon_herograve.png",
+            "chest_opened_img": "images/icons/icon_herograve_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Auriza Hero's Grace",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true, talismans_false"
+        ],
+        "map_locations": [
+          {
+            "map": "outskirts_map",
+            "x": 533,
+            "y": 390
+          }
+        ],
+        "sections": [
+          {
+            "name": "Crucible Knight Duo",
+            "chest_unopened_img": "images/icons/icon_herograve.png",
+            "chest_opened_img": "images/icons/icon_herograve_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Auriza Hero's Grace",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_false, talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "outskirts_map",
+            "x": 533,
+            "y": 390
+          }
+        ],
+        "sections": [
+          {
+            "name": "Crucible Knight Duo",
+            "chest_unopened_img": "images/icons/icon_herograve.png",
+            "chest_opened_img": "images/icons/icon_herograve_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Auriza Side Tomb",
+        "access_rules": [
+          "minidungeons_true, minor_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "outskirts_map",
+            "x": 565,
+            "y": 279
+          }
+        ],
+        "sections": [
+          {
+            "name": "Grave Warden Duelist",
+            "chest_unopened_img": "images/icons/icon_catacombs.png",
+            "chest_opened_img": "images/icons/icon_catacombs_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hermit Merchant's Shack (night)",
+        "access_rules": [
+          "minor_bosses_true, night_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "outskirts_map",
+            "x": 109,
+            "y": 92
+          }
+        ],
+        "sections": [
+          {
+            "name": "Bell Bearing Hunter",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "East of Hermit Merchant (night)",
+        "access_rules": [
+          "minor_bosses_true, night_bosses_true"
+        ],
+        "map_locations": [
+          {
+            "map": "outskirts_map",
+            "x": 247,
+            "y": 68
+          }
+        ],
+        "sections": [
+          {
+            "name": "Deathbird",
+            "chest_unopened_img": "images/icons/icon_dragon.png",
+            "chest_opened_img": "images/icons/icon_dragon_checked.png",
+            "item_count": 1
+          }
+        ]
+      },
+    ]
+  }
+]
