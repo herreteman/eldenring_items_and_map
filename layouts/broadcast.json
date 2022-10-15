@@ -3,7 +3,7 @@
         "type": "container",
         "height": 600,
         "width": 600,
-        "background": "#000066",
+        "background": "#00b140",
         "content": {
             "type": "array",
             "dropshadow": false,
