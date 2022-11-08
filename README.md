@@ -17,6 +17,7 @@ Please read the FAQ for any inquires!
 
 ## Planned updates
 * Enemy randomizer "integration" by having capture items in boss locations.
+* Adding in any possible (current patch) sequence break.
 
 ## Known issues
 * The settings tab in horizontal layouts may not be centered.

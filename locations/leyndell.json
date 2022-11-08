@@ -1,5 +1,40 @@
 [
   {
+    "name": "Leyndell Divine Bridge",
+    "access_rules": [
+      "talismans_true"
+    ],
+    "children": [
+      {
+        "name": "Leyndell Divine Bridge",
+        "access_rules": [
+          "talismans_true"
+        ],
+        "map_locations": [
+          {
+            "map": "leyndell_map",
+            "x": 78,
+            "y": 359
+          },
+          {
+            "map": "leyndell_ash_map",
+            "x": 78,
+            "y": 359
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest next to golem",
+            "chest_unopened_img": "images/icons/icon_talisman.png",
+            "chest_opened_img": "images/icons/icon_talisman_checked.png",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  
+  {
     "name": "Leyndell, Royal Capital",
     "access_rules": [
       "$leyndell"
@@ -111,32 +146,6 @@
         "sections": [
           {
             "name": "Corpse on the stairs",
-            "chest_unopened_img": "images/icons/icon_talisman.png",
-            "chest_opened_img": "images/icons/icon_talisman_checked.png",
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Leyndell Divine Bridge",
-        "access_rules": [
-          "talismans_true"
-        ],
-        "map_locations": [
-          {
-            "map": "leyndell_map",
-            "x": 78,
-            "y": 359
-          },
-          {
-            "map": "leyndell_ash_map",
-            "x": 78,
-            "y": 359
-          }
-        ],
-        "sections": [
-          {
-            "name": "Chest next to golem",
             "chest_unopened_img": "images/icons/icon_talisman.png",
             "chest_opened_img": "images/icons/icon_talisman_checked.png",
             "item_count": 1
